@@ -69,14 +69,19 @@ Kemudian, sistem operasi akan mengambil alih kendali dan mulai menjalankan progr
 ### Langkah 1
 
 <h3>Install Aplikasi Virtualbox</h3>
-<p><b>1.</b> Buka Browser anda lalu ketik pada pencarian VirtualBox
-<p><b>2.</b> Klik download virtualbox
-
-</p>
+<p><b>1.</b> Buka Browser anda lalu ketik pada pencarian VirtualBox</p>
+<p><b>2.</b> Klik download virtualbox</p>
 <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/0.png">
 
-## Referensi
+<p><b>3.</b>Pilih varian platform packages yang ingin anda gunakan, lalu download</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/01.png">
 
+<p><b>4.</b>Tunggu sampai download selesai</p>
+  
+  <p><b>5.</b>buka apikasi virtualbox</p>
+  <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/02.png">
+  <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/1.png">
+## Referensi
 [VirtualBox Download](https://www.virtualbox.org/wiki/Downloads)
 
 [Debian 12 Download](https://www.debian.org/download)
