@@ -124,10 +124,10 @@ Kemudian, sistem operasi akan mengambil alih kendali dan mulai menjalankan progr
 <p><b>7.</b>Pilih bahasa sesuai keinginan</p>
 <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/6.png">
 
-<p><b>8.</b>Pilih Lokasi</p><b>Asia</b>
+<p><b>8.</b>Pilih Lokasi</p>Asia</b>
 <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/7.png">
 
-<p><b>9.</b>Pilih lokasi </p><b>Indonesia</b>
+<p><b>9.</b>Pilih lokasi </p>Indonesia</b>
 <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/8.png">
 
 
