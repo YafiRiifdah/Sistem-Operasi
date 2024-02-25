@@ -81,6 +81,56 @@ Kemudian, sistem operasi akan mengambil alih kendali dan mulai menjalankan progr
   <p><b>5.</b>buka apikasi virtualbox</p>
   <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/02.png">
   <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/1.png">
+
+  <p><b>6.</b>Klik next</p>
+  <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/2.png">
+
+<p><b>7.</b>Setelah anda next maka akan uncul tampilan seperti berikut</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/3.png">
+
+<p><b>8.</b>Klik "Yes" untuk melanjutkan proses instalasi</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/4.png">
+
+<p><b>9.</b>Klik Install</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/5.png">
+
+<p><b>10.</b>Tunggu sampai proses selesai</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/6.png">
+
+<p><b>11.</b>Jika sudah opsi Start Oracle VM Virtual Box dan klik tombol Finish.</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/7.png">
+
+<p>Selsesai</p>
+
+<h3>Instalasi Debian</h3>
+<p><b>1.</b>Klik "new" untuk membuat virtual machine</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/1.png">
+
+<p><b>2.</b>Create virtual machine dengan mengisi nama, dan iso image. tap checklist dan next</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/Screenshot%202024-02-22%20151734.png">
+
+<p><b>3.</b>Ubah ukuran base memory menjadi 4096 dan Cpu menjadi 2</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/3.png">
+
+<p><b>4.</b>Ubah ukuran virtual hardisk menjadi 26,50 GB</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/4.png">
+
+<p><b>5.</b>klik finis</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/5.png">
+
+<p><b>6.</b>Klik start</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/5.png">
+
+<p><b>7.</b>Pilih bahasa sesuai keinginan</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/6.png">
+
+<p><b>8.</b>Pilih Lokasi</p><b>Asia</b>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/7.png">
+
+<p><b>9.</b>Pilih lokasi </p><b>Indonesia</b>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/8.png">
+
+
 ## Referensi
 [VirtualBox Download](https://www.virtualbox.org/wiki/Downloads)
 
