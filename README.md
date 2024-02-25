@@ -1,4 +1,3 @@
-# Sistem-Operasi
 <div align="center">
   <h1 style="text-align: center;font-weight: bold">Praktikum 1<br>Sistem Operasi</h1>
   <h4 style="text-align: center;">Dosen Pengampu : Dr. Ferry Astika Saputra, S.T., M.Sc.</h4>
@@ -69,7 +68,11 @@ Kemudian, sistem operasi akan mengambil alih kendali dan mulai menjalankan progr
 
 ### Langkah 1
 
-<h1>Install Aplikasi Virtualbox</h1>
+<h3>Install Aplikasi Virtualbox</h3>
+<p><b>1.</b> Buka Browser anda lalu ketik pada pencarian VirtualBox
+<p><b>2.</b> Klik download virtualbox
+
+</p>
 <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/0.png">
 
 ## Referensi
@@ -81,4 +84,3 @@ Kemudian, sistem operasi akan mengambil alih kendali dan mulai menjalankan progr
 [Sistem Operasi](https://id.wikipedia.org/wiki/Sistem_operasi)
 
 [Debian](https://id.wikipedia.org/wiki/Debian)
-
