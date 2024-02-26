@@ -102,6 +102,7 @@ Kemudian, sistem operasi akan mengambil alih kendali dan mulai menjalankan progr
 
 <p>Selsesai</p>
 
+#### Langkah 2
 <h3>Instalasi Debian</h3>
 <p><b>1.</b>Klik "new" untuk membuat virtual machine</p>
 <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/1.png">
@@ -124,12 +125,155 @@ Kemudian, sistem operasi akan mengambil alih kendali dan mulai menjalankan progr
 <p><b>7.</b>Pilih bahasa sesuai keinginan</p>
 <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/6.png">
 
-<p><b>8.</b>Pilih Lokasi</p>Asia</b>
+<p><b>8.</b>Pilih Lokasi Asia</p>
 <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/7.png">
 
-<p><b>9.</b>Pilih lokasi </p>Indonesia</b>
+<p><b>9.</b>Pilih lokasi (Indonesia)</p>
 <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/8.png">
 
+<p><b>10.</b>Pilih Wilayah (United States)</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/9.png">
+
+<p><b>11.</b>Pilih Keyboard (American English)</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/10.png">
+
+<p><b>12.</b>Tunggu loading hingga selesai</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/11.png">
+
+<p><b>13.</b>Masukkan Hostname</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/12.png">
+
+<p><b>14.</b>Langsung Klik Continue</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/14.png">
+
+<p><b>15.</b>Buat Paswword</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/15.png">
+
+<p><b>16.</b>Masukkan nama kalian</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/16.png">
+
+<P><b>17.</b>Buat Username</P>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/17.png">
+
+<p><b>18.</b>Setting Password</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/18.png">
+
+<p><b>19.</b>Konfigurasi waktu (Western)</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/19.png">
+
+<p><b>20.</b>Metode Praktisi, pilih manual</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/20.png">
+
+<p><b>21.</b>Pilhb partisi disk yang ingin di modifikasi</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/21.png">
+
+<p><b>22.</b>Klik Yes, lalu continue</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/22.png">
+
+<p><b>23.</b>Pilih Free Space lalu klik continue</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/23.png">
+
+<p><b>24.</b>Pilih Create New Partition</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/24.png">
+
+<p><b>25.</b>Pilih size untuk partisi disk</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/25.png">
+
+<p><b>26.</b>Pilih Primary</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/26.png">
+
+<p><b>27.</b>Pilih Beginning</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/27.png">
+
+<p><b>28.</b>Pilih Done Setting Up The Partition</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/29.png">
+
+<p><b>29.</b>Pilih Free Space</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/30.png">
+
+<p><b>30.</b>Pilih Create New partition</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/31.png">
+
+<p><b>31.</b>Masukkan jumlah partisi yang anda inginkan  (5GB) lalu klik continue</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/32.png">
+
+<p><b>32.</b>Pilih Primary</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/33.png">
+
+<p><b>33.</b>Pilih Beginning</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/34.png">
+
+<p><b>34.</b>klik mount point</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/35.png">
+
+<p><b>35.</b>Ubah menjadi /Storage</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/41.png">
+
+<p><b>36.</b>"klik done setting up yhe partition"</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/42.png">
+
+<p><b>37.</b>Pilih free space</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/35.png">
+
+<p><b>38.</b>Pilih "Create New Partititon"</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/37.png">
+
+<p><b>39.</b>Masukkan Size Partisi (1,5GB)</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/68.png"
+
+<p><b>40.</b>Pilih Primary</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/38.png">
+
+<p><b>41.</b>Pilih Beginning</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/39.png">
+
+<p><b>42.</b>Klik Us As, Lalu pilih Swap Area</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/65.png">
+
+<p><b>43.</b>Klik Done Setting</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/66.png">
+
+<p><b>44.</b>Klik Finish</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/67.png">
+
+<p><b>45.</b>Tunggu Proses Install</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/43.png">
+
+<p><b>46.</b>Pilih No</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/44.png">
+
+<p><b>47.</b>Pilih Package Manager Indonesia</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/45.png">
+
+<p><b>48/</b>Pilih kebo.pens.ac.id</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/46.png">
+
+<p><b>49.</b>Http proxy dikosong kan saja</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/47.png">
+
+<p><b>50.</b>Tunggu loading hingga selesai</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/48.png">
+
+<p><b>51.</b>Pilih "Yes"</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/49.png">
+
+<p><b>52.</b>Cheklist seperti contoh dibawah ini</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/50.png">
+
+<p><b>53.</b>Tunggu sampai loading selesai</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/51.png">
+
+<p><b>54.</b>Pilih "Yes"</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/53.png">
+
+<p><b>55.</b>Pilih seperti contoh berikut</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/54.png".
+
+<p><b>56.</b>Finish Instalisasi, Klik Continue</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/55.png">
+
+<p><b>57.</b>Jika selesai maka akan tampiln seperti gambar berikut, maka debian siap digunakan</p>
+<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/56.png">
 
 ## Referensi
 [VirtualBox Download](https://www.virtualbox.org/wiki/Downloads)
