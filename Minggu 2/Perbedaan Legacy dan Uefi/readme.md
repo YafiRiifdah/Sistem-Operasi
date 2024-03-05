@@ -96,11 +96,11 @@ Oleh sebab itu sobat semua kelahiran UEFI sebagai pengganti EFI ini harus dipaha
 Pada dasarnya BIOS Legacy lama masih menggunakan sistem partisi MBR atau Master Boot Record. Sedangkan untuk UEFI sudah menggunakan partisi GPT atau GUID Partition Table.</p>
 
 <h3><b>Berikut perbedaan antara UEFI dan Legacy:</b></h3>
-1. <p>Batasan partisi untuk MBR Legacy hanya mampu 2 Terabyte sedangkan untuk GPT UEFI bisa lebih besar dari 2 Terabyte keatas.</p>
-2. <p>MBR Legacy hanya bisa membuat partisi utama 4 saja, sedangkan GPT UEFI bisa lebih sampai 128 partisi utama.</p>
-3. <p>Pada MBR Legacy hanya mampu menyimpan 1 bootloader saja, sedangkan untuk GPT UEFI bisa lebih dari satu partisi bootloader.</p>
+1. Batasan partisi untuk MBR Legacy hanya mampu 2 Terabyte sedangkan untuk GPT UEFI bisa lebih besar dari 2 Terabyte keatas.
+2. MBR Legacy hanya bisa membuat partisi utama 4 saja, sedangkan GPT UEFI bisa lebih sampai 128 partisi utama.
+3. Pada MBR Legacy hanya mampu menyimpan 1 bootloader saja, sedangkan untuk GPT UEFI bisa lebih dari satu partisi bootloader
 
- <P>Untuk bisa menggunakan UEFI, Anda tidak bisa langsung update begitu saja, perlu melakukan cek apakah hardware yang Anda gunakan sudah support dengan firmware UEFI.
+Untuk bisa menggunakan UEFI, Anda tidak bisa langsung update begitu saja, perlu melakukan cek apakah hardware yang Anda gunakan sudah support dengan firmware UEFI.
 
 Jika belum Anda perlu mengupgrade hardware yang dimiliki dengan versi yang lebih baru.
 
