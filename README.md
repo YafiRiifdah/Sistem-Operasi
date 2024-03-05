@@ -19,7 +19,7 @@
 ## Daftar Isi
 
 1. [Pendahuluan](#sistem-operasi-)
-2. [Soal 1](#1-jelaskan-langkah-langkah-proses-booting-)
+2. [Soal 1](#1-jelaskan-langkah-langkah-proses-booting)
 3. [Soal 2](#2-bagaimana-cara-install-debian-di-virtual-box-)
 4. [Referensi](#referensi)
 
