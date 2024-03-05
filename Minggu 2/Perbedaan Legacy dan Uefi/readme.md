@@ -55,11 +55,33 @@ Tetapi beberapa tahun belakangan ini muncul penganti Legacy BIOS yang bernama UE
 ### 1. Perbedaan LEGACY dan UEFI
 
 ## Apa Itu UEFI
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Perbedaan%20Legacy%20dan%20Uefi/Image/Contoh%20Uefi.png">
 UEFI kepanjangan dari (Unifield Exstensible Firmware Interface) merupakan teknologi terbaru yang berfungsi untuk mempercanggih BIOS (Basic Input Output System). Munculnya UEFI adalah pada pertengahan tahun 1990an yang dimulai dengan munculnya standar EFI dan hanya pada komputer jenis server yang memiliki BIOS EFI yaitu keluarn Intel dan HP.
 
 Seiring bergulirnya waktu dan berkembang pesatnya teknologi, fitur dari EFI diperbaharui agar lebih baik untuk semua platfom hardware terbaru. Maka lahirlah teknologi UEFI saat ini yang mana EFI diperbaharui menjadi UEFI, huruf "U" merupakan tanda United atau Universal yang artinya mampu digunakan di berbagai jenis platform hardware. Pada awal lahirnya UEFI ini hanya dapat ditemukan pada jenis BIOS komputer sever, namun saat ini sobat akan semakin sering menemukannya pada jenis komputer biasa. Terlebih semua jenis laptop keluaran tahun 2014 sudah dapat dipastikan memiliki fitur UEFI walaupun diikutsertakan juga fitur EFI/Legacy sebagai fitur lama yang masih bisa digunakan.
 
 Oleh sebab itu sobat semua kelahiran UEFI sebagai pengganti EFI ini harus dipahami sebagai sebuah perkembangan teknologi yang luar biasa, pada perkembangan teknologi komputer, fitur bahasa pemograman, kecanggihan hardware, visualisasi, kapasitas dan memori dan kode bit menjadi acuan.
+
+## Kelebihan  Uefi
+1. UEFI memiliki komunikasi yang lebih baik  dengan hardware dan firmware dibandingkan dengan BIOS. Contoh saja UEFI tidak lagi memerlukan boot sector pada hardisk, bisa menggunakan mouse dan keyboard untuk interface.
+
+2. UEFI bisa custom program sehingga produsen hardware bisa menambahkan aplikasi dan driver di dalamnya, jadi sudah tidak perlu lagi CD driver seperti yang ada pada komputer BIOS.
+
+3. Tampilan UEFI lebih menarik dan modern dibandingkan BIOS.
+
+4. Bisa menggunakan mouse dan keyboard untuk inputnya.
+
+5. Security UEFI lebih kuat jika dibandingkan dengan BIOS
+
+6. UEFI mendukung kapasitas hardisk lebih dari 2,2 TB, jadi lebih aman untuk Anda yang suka menyimpan file pada hardisk.
+
+7. UEFI memiliki waktu startup yang lebih cepat.
+
+8. Proses resume dari hibernate yang lebih cepat.
+
+9. UEFI mendukung driver perangkat 64 bit.
+
+10. Saat ini UEFI bisa menjalankan BIOS, jadi untuk hardware lama masih bisa tetap berjalan normal.
 
 ## Ciri Bios LEGACY dan UEFI
 1. BIOS yang digunakan 2014 ke atas sudah dipastikan terdapat fitur UEFI
@@ -67,14 +89,33 @@ Oleh sebab itu sobat semua kelahiran UEFI sebagai pengganti EFI ini harus dipaha
 3. Tidak dapat install sistem operasi 64 bit pada komputer atau laptop, adalah tanda bahwa BIOS sudah memiliki fitur UEFI
 4. Komputer atau laptop yang sudah terpasang sistem operasi windows 8.x atau windows 10 sebagai bawaannya, sudah dipastikan BIOS support dengan jenis UEFI.
 
+## Perbedaan UEFI dan LEGACY
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Perbedaan%20Legacy%20dan%20Uefi/Image/bios%20uefi.jpg">
+<p>Seperti yang sudah Kami jelaskan diatas bahwa UEFI adalah versi terbaru dari Legacy BIOS yang sudah ada sejak tahun 75.
 
+Pada dasarnya BIOS Legacy lama masih menggunakan sistem partisi MBR atau Master Boot Record. Sedangkan untuk UEFI sudah menggunakan partisi GPT atau GUID Partition Table.</p>
+
+<h3><b>Berikut perbedaan antara UEFI dan Legacy:</b></h3>
+1. <p>Batasan partisi untuk MBR Legacy hanya mampu 2 Terabyte sedangkan untuk GPT UEFI bisa lebih besar dari 2 Terabyte keatas.</p>
+2. <p>MBR Legacy hanya bisa membuat partisi utama 4 saja, sedangkan GPT UEFI bisa lebih sampai 128 partisi utama.</p>
+3. <p>Pada MBR Legacy hanya mampu menyimpan 1 bootloader saja, sedangkan untuk GPT UEFI bisa lebih dari satu partisi bootloader.</p>
+
+ <P>Untuk bisa menggunakan UEFI, Anda tidak bisa langsung update begitu saja, perlu melakukan cek apakah hardware yang Anda gunakan sudah support dengan firmware UEFI.
+
+Jika belum Anda perlu mengupgrade hardware yang dimiliki dengan versi yang lebih baru.
+
+Anda juga tidak perlu takut jika kebingungan menggunakan firmware UEFI yang baru karena belum terbiasa, UEFI juga menyediakan emulator BIOS sehingga Anda tetap bisa menggunakan BIOS seperti biasanya.</P>
 
 
 ## Referensi
-[VirtualBox Download](https://www.virtualbox.org/wiki/Downloads)
+[Pengertian dan Fungsi Bios](https://www.acerid.com/berita-teknologi/fungsi-bios-pada-sistem-komputasi)
 
-[Debian 12 Download](https://www.debian.org/download)
+[SIstem Operasi Legacy dan Uefi](https://seberkas.com/perbedaan-uefi-dan-legacy/)
 
-[Sistem Operasi](https://id.wikipedia.org/wiki/Sistem_operasi)
+[Apa itu UEFI](https://www.buatkuingat.com/2019/02/apa-bedanya-bios-legacy-dan-uefi.html)
 
-[Debian](https://id.wikipedia.org/wiki/Debian)
+[Kelebihan UEFI](https://qwords.com/blog/apa-itu-uefi-dan-legacy/)
+
+[Ciri bios Legacy dan Uefi](https://www.buatkuingat.com/2019/02/apa-bedanya-bios-legacy-dan-uefi.html)
+
+[Perbedaan UEFI dan LEGACY](https://qwords.com/blog/apa-itu-uefi-dan-legacy/)
