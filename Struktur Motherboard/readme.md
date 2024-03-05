@@ -19,8 +19,8 @@
 ## Daftar Isi
 
 1. [Pendahuluan](#sistem-operasi-)
-2. [Struktur Motherboard](#1-Struktur-Motherboard-)
-3. [Pengertian Motherboard](#2-Pengertian-Motherboard-)
+2. [Struktur Motherboard](#-Struktur-Motherboard-)
+3. [Pengertian Motherboard](#-Pengertian-Motherboard-)
 4. [Referensi](#referensi)
 
 ## Struktur Motherboard
