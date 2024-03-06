@@ -46,8 +46,8 @@ Secara umum, Motherboard memiliki fungsi utama untuk mengelola hubungan atau kom
 6. Menyediakan dukungan firmware komputer untuk menjalankan perintah dasar seperti BIOS (Basic Input Output System) dan UEFI (Unified Extensible Firmware Interface), yang memungkinkan komputer dapat booting.
 
 ## Komponen Utama Motherboard
-<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/Slot%20cpu.jpg">
 1. <b>Socket CPU</b>
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/Slot%20cpu.jpg">
 <p>Soket prosesor adalah komponen yang terdiri dari dua jenis, yaitu ZIF (model soket terbaru) dan LIF (model soket yang lama). Soket prosesor memiliki sejumlah fungsi.
 Fungsi utama dari soket prosesor adalah untuk meletakkan prosesor dan menghubungkannya melalui lubang-lubang yang disesuaikan dengan kaki dari prosesor. </p>
 
