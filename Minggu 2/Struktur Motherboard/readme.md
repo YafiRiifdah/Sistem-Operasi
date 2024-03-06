@@ -110,17 +110,16 @@ Program BIOS sendiri terdiri dari ROM (Read Only Memory) yang berfungsi untuk me
 
 ## Komponen Tambahan Motherboard
 Komponen tambahan yang digunakan dalam motherboard adalah sebagai berikut:
-1. <p>Audio line in jack, yakni komponen audio berwarna biru untuk tape, CD, dan pemutar DVD.</p>
-2. <p>Audio line out jack, yaitu komponen audio berwarna kuning cerah untuk penyuara kuping dan pengeras suara.</p>
-3 <p>Microphone, yaitu komponen audio berwarna merah muda yang berperan sebagai mikrofon.</p>
-4. <p>USB Port 1 dan 2, yaitu komponen yang digunakan untuk memasukan perangkat USB.</p>
-5. <p>Serial port com 2, yaitu komponen yang digunakan untuk menyambungkan monitor.</p>
-6. <p>Serial port com 1, yakni komponen yang digunakan untuk menyambungkan mouse.</p>
-7. <p>PS/2 keyboard port, yakni komponen dengan 6 pin yang berfungsi untuk menyambungkan keyboard (warna biru kehijauan).</p>
-8. <p>PS/2 mouse port, yaitu komponen dengan 6 pin untuk menghubungkan komputer dengan mouse (warna ungu).</p>
-9. <p>Paralel port, yaitu komponen yang digunakan untuk menghubungkan mesin pencetak dan mesin pemindai.</p>
-10.<p>ungkan mesin pencetak dan mesin pemindai.
-RJ45 port, yaitu komponen untuk menghubungkan dengan kabel ethernet.</p>
+1. Audio line in jack, yakni komponen audio berwarna biru untuk tape, CD, dan pemutar DVD.
+2. Audio line out jack, yaitu komponen audio berwarna kuning cerah untuk penyuara kuping dan pengeras suara.
+3. Microphone, yaitu komponen audio berwarna merah muda yang berperan sebagai mikrofon.
+4. USB Port 1 dan 2, yaitu komponen yang digunakan untuk memasukan perangkat USB.
+5. Serial port com 2, yaitu komponen yang digunakan untuk menyambungkan monitor.
+6. Serial port com 1, yakni komponen yang digunakan untuk menyambungkan mouse.
+7. PS/2 keyboard port, yakni komponen dengan 6 pin yang berfungsi untuk menyambungkan keyboard (warna biru kehijauan).
+8. PS/2 mouse port, yaitu komponen dengan 6 pin untuk menghubungkan komputer dengan mouse (warna ungu).
+9. Paralel port, yaitu komponen yang digunakan untuk menghubungkan mesin pencetak dan mesin pemindai.
+10.RJ45 port, yaitu komponen untuk menghubungkan dengan kabel ethernet.</>
 
 
 ## Referensi
