@@ -105,6 +105,7 @@ Program BIOS sendiri terdiri dari ROM (Read Only Memory) yang berfungsi untuk me
 <p>Memori kilat atau flash ROM adalah salah satu tipe PROM (Programmable Read Only Memory). Berbeda dengan RAM, jenis memori ini dapat menyimpan datanya tanpa membutuhkan penyediaan listrik.</p>
 
 15. <b><h3>Audio Codec</h3></b>
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/slot-audio-codec1.jpg">
 <p>Audio codec merupakan chip kecil berukuran 0,25 x 0,25 inci (7 x 7 mm) yang terletak di motherboard yang bertanggung jawab atas fungsi audio analog</p>
 
 ## Komponen Tambahan Motherboard
