@@ -24,14 +24,18 @@
 4. [Referensi](#referensi)
 
 ## Struktur Motherboard
+
 Motherboard adalah suatu papan sirkuit dalam komputer yang terdiri dari beberapa bagian. Bagian-bagian motherboard memiliki fungsi dan cara kerjanya masing-masing. Motherboard sendiri merupakan perangkat yang berfungsi untuk menyediakan konektivitas kepada beberapa perangkat keras yang ada dalam komputer, seperti seperti prosesor (CPU), memori (RAM), hard drive, dan kartu video.
 Untuk memberikan konektivitas kepada perangkat keras tersebut, motherboard membutuhkan bagian-bagian tertentu yang menunjang fungsi kerjanya.
 
 ## Apa itu Motherboard
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/MOBO.jpg">
+
 Motherboard merupakan salah satu bagian yang penting dan diperlukan dalam suatu sistem komputer. Pada bagian tersebut terdapat banyak komponen penting lain dari komputer yang bersatu, seperti unit pemrosesan pusat (CPU), memori dan konektor, dan lain sebagainya.
 Dikutip dari buku Dasar-dasar Ilmu Komputer yang ditulis oleh Hamid Sakti Wibowo, pengertian motherboard adalah papan sirkuit terintegrasi yang menjadi komponen utama dari sebuah komputer. Motherboard juga dapat diartikan sebagai pusat pengendali yang mengatur kerja dari semua komponen yang terpasang pada bagian tersebut. Oleh sebab itu, bagian komputer ini disebut sebagai induk komponen dari suatu perangkat komputer.
 
 ## Fungsi Motherboard
+
 Secara umum, Motherboard memiliki fungsi utama untuk mengelola hubungan atau komunikasi antar komponen yang terdapat pada komputer, supaya bisa berjalan secara terpadu. Adapun beberapa fungsi Motherboard adalah sebagai berikut:
 
 1. Mengatur aliran data dan menyediakan jalur komunikasi antar semua komponen komputer, seperti CPU, RAM, dan perangkat keras lainnya.
@@ -42,6 +46,7 @@ Secara umum, Motherboard memiliki fungsi utama untuk mengelola hubungan atau kom
 6. Menyediakan dukungan firmware komputer untuk menjalankan perintah dasar seperti BIOS (Basic Input Output System) dan UEFI (Unified Extensible Firmware Interface), yang memungkinkan komputer dapat booting.
 
 ## Komponen Utama Motherboard
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/Slot%20cpu.jpg">
 1. <b>Socket CPU</b>
 <p>Soket prosesor adalah komponen yang terdiri dari dua jenis, yaitu ZIF (model soket terbaru) dan LIF (model soket yang lama). Soket prosesor memiliki sejumlah fungsi.
 Fungsi utama dari soket prosesor adalah untuk meletakkan prosesor dan menghubungkannya melalui lubang-lubang yang disesuaikan dengan kaki dari prosesor. </p>
@@ -56,7 +61,7 @@ Program BIOS sendiri terdiri dari ROM (Read Only Memory) yang berfungsi untuk me
 4. <b><i>Chip North Bridge Controller</i></b>
 <p>North bridge controller adalah bagian atau komponen dalam motherboard yang mempunyai fungsi sebagai penghubung antara slot RAM, slot AGP, dan socket CPU.</p>
 
-5. <b>Chip South Bridge Controller</b> 
+5. <b>Chip South Bridge Controller</b>
 <p>South Bridge Controller merupakan chip yang memiliki nilai penting bagi komputer. Fungsi komponen ini ialah untuk mengendalikan periferal pada perangkat komputer, seperti ROM BIOS, USB, keyboard, IDE controller, mouse, modem, LAN, dan lainnya</p>
 
 6. <b>Power Supply Unit Connectors</b>
@@ -90,12 +95,24 @@ Program BIOS sendiri terdiri dari ROM (Read Only Memory) yang berfungsi untuk me
 <p>Audio codec merupakan chip kecil berukuran 0,25 x 0,25 inci (7 x 7 mm) yang terletak di motherboard yang bertanggung jawab atas fungsi audio analog</p>
 
 ## Komponen Tambahan Motherboard
+Komponen tambahan yang digunakan dalam motherboard adalah sebagai berikut:
+1. <p>Audio line in jack, yakni komponen audio berwarna biru untuk tape, CD, dan pemutar DVD.</p>
+2. <p>Audio line out jack, yaitu komponen audio berwarna kuning cerah untuk penyuara kuping dan pengeras suara.</p>
+3 <p>Microphone, yaitu komponen audio berwarna merah muda yang berperan sebagai mikrofon.</p>
+4. <p>USB Port 1 dan 2, yaitu komponen yang digunakan untuk memasukan perangkat USB.</p>
+5. <p>Serial port com 2, yaitu komponen yang digunakan untuk menyambungkan monitor.</p>
+6. <p>Serial port com 1, yakni komponen yang digunakan untuk menyambungkan mouse.</p>
+7. <p>PS/2 keyboard port, yakni komponen dengan 6 pin yang berfungsi untuk menyambungkan keyboard (warna biru kehijauan).</p>
+8. <p>PS/2 mouse port, yaitu komponen dengan 6 pin untuk menghubungkan komputer dengan mouse (warna ungu).</p>
+9. <p>Paralel port, yaitu komponen yang digunakan untuk menghubungkan mesin pencetak dan mesin pemindai.</p>
+10.<p>ungkan mesin pencetak dan mesin pemindai.
+RJ45 port, yaitu komponen untuk menghubungkan dengan kabel ethernet.</p>
+
 
 ## Referensi
+
 [Struktur Motherboard](https://kumparan.com/kabar-harian/bagian-bagian-motherboard-dan-fungsinya-1xjCtdWcq23/1)
 
 [Apa itu Motherboard](https://kumparan.com/kabar-harian/bagian-bagian-motherboard-dan-fungsinya-1xjCtdWcq23/1)
 
 [Komponen Utama Motherboard](https://kumparan.com/kabar-harian/bagian-bagian-motherboard-dan-fungsinya-1xjCtdWcq23/full)
-
-
