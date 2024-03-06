@@ -51,47 +51,60 @@ Secara umum, Motherboard memiliki fungsi utama untuk mengelola hubungan atau kom
 <p>Soket prosesor adalah komponen yang terdiri dari dua jenis, yaitu ZIF (model soket terbaru) dan LIF (model soket yang lama). Soket prosesor memiliki sejumlah fungsi.
 Fungsi utama dari soket prosesor adalah untuk meletakkan prosesor dan menghubungkannya melalui lubang-lubang yang disesuaikan dengan kaki dari prosesor. </p>
 
-2. <b>Slot RAM</b>
+2. <b><h3>Slot RAM</h3></b>
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/Slot%20Ram.jpg">
 <p>Slot RAM adalah bagian pada motherboard yang memiliki fungsi untuk meletakkan RAM. Saat ini, perangkat komputer banyak menggunakan untuk motherboard baru yang menggunakan tipe DDR3.</p>
 
-3. <b>BIOS (Basic Input-Output System)</b>
+3. <b><h3>BIOS (Basic Input-Output System)</h3></b>
+<img src ="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/Bios.jpg">
 <p>BIOS merupakan suatu program dasar yang dipakai antara motherboard dan sistem operasi. Artinya, BIOS memiliki fungsi sebagai penghubung antara perangkat lunak dan perangkat keras dalam suatu komputer.
 Program BIOS sendiri terdiri dari ROM (Read Only Memory) yang berfungsi untuk mengatur suatu komponen yang terhubung pada motherboard agar dapat bekerja.</p>
 
-4. <b><i>Chip North Bridge Controller</i></b>
+4. <b><h3>Chip North Bridge Controller</h3></b>
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/northbridge-southbridge_orig.jpg"
 <p>North bridge controller adalah bagian atau komponen dalam motherboard yang mempunyai fungsi sebagai penghubung antara slot RAM, slot AGP, dan socket CPU.</p>
 
-5. <b>Chip South Bridge Controller</b>
+5. <b><h3>Chip South Bridge Controller</h3></b>
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/northbridge-southbridge_orig.jpg">
 <p>South Bridge Controller merupakan chip yang memiliki nilai penting bagi komputer. Fungsi komponen ini ialah untuk mengendalikan periferal pada perangkat komputer, seperti ROM BIOS, USB, keyboard, IDE controller, mouse, modem, LAN, dan lainnya</p>
 
-6. <b>Power Supply Unit Connectors</b>
+6. <b><h3>Power Supply Unit Connectors</h3></b>
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/Psu%20Connector.jpeg">
 <p>Bagian ini merupakan komponen berupa pin yang berfungsi untuk menghubungkan motherboard dengan power supply. Jenis power supply yang saat ini banyak digunakan adalah jenis ATX yang membantu mematikan daya komputer tanpa perlu menekan tombol daya.</p>
 
-7. <b>CMOS (Complementary Metal Oxide Semiconductor)</b>
+7. <b><h3>CMOS (Complementary Metal Oxide Semiconductor)</h3></b>
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/CMOS.jpg">
 <p>CMOS merupakan baterai dalam komputer yang membantu untuk memberikan daya kepada suatu memori motherboard untuk mengatur konfigurasi dalam sistem tersebut.</p>
 
-8. <b>Slot IDE</b>
+8. <b><h3>Slot IDE</h3></b>
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/slot-ide1.jpg">
 <p>IDE (Integrated Device Electronic) adalah suatu komponen yang berfungsi untuk mendukung perangkat hard disk atau floppy disk. Slot IDE sendiri merupakan tempat penempatan IDE dalam motherboard. SATA sendiri merupakan bus primer pada komputer yang didesain untuk mentransfer data dari motherboard ke media penyimpanan data, seperti hard disk dan optical drive pada komputer.</p>
 
-9. <b>SATA (Serial Advance Technology Attachment) Connectors</b>
+9. <b><h3>SATA (Serial Advance Technology Attachment) Connectors</h3></b>
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/slot-sata1.jpg">
 <p>Slot SATA adalah suatu komponen dalam motherboard yang memiliki fungsi untuk menghubungkan komponen dengan sambungan perangkat SATA.</p>
 
-10. <b> Slot AGP</b>
+10. <b><h3>Slot AGP</h3></b>
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/slot-agp1.jpg">
 <p>Slot AGP (Accelerated Graphics Port) adalah salah satu jenis port dalam motherboard yang berfungsi untuk menginput AGP Card sehingga komputer dapat menampilkan tampilan grafis pada layarnya.</p>
 
-11. <b>Slot PCI</b>
+11. <b><h3>Slot PCI</h3></b>
+<img src ="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/slot-pci1.jpg">
 <p>Slot PCI merupakan suatu bagian dalam motherboard yang berfungsi sebagai tempat untuk kartu Eternet, kartu LAN, kartu suara, kartu USB, kartu SATA.</p>
 
-12. <b>CPU Fan Power Supply Connector</b>
+12. <b><h3>CPU Fan Power Supply Connector</h3></b>
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/Cpu%20fan%20power%20suply.jpg">
 <p>Bagian ini adalah komponen yang berfungsi untuk menyambungkan komputer dengan kipas CPU. Kipas ini memiliki fungsi untuk mendinginkan CPU.CPU. Kipas ini memiliki fungsi untuk mendinginkan CPU.</p>
 
-13. <b>Super I/O Controller</b>
+13. <b><h3>Super I/O Controller</h3></b>
+<img src ="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/input%20output.jpeg">
 <p>Super I/O Controller adalah suatu komponen dalam motherboard yang berupa sirkuit yang memuat beberapa soket, seperti untuk mesin pencetak, mouse, keyboard dan lain-lain.</p>
 
-14. <b>Flash Room</b>
+14. <b><h3>Flash Room</h3></b>
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%202/Struktur%20Motherboard/Image/slot-flashROM.jpg">
 <p>Memori kilat atau flash ROM adalah salah satu tipe PROM (Programmable Read Only Memory). Berbeda dengan RAM, jenis memori ini dapat menyimpan datanya tanpa membutuhkan penyediaan listrik.</p>
 
-15. <b>Audio Codec</b>
+15. <b><h3>Audio Codec</h3></b>
 <p>Audio codec merupakan chip kecil berukuran 0,25 x 0,25 inci (7 x 7 mm) yang terletak di motherboard yang bertanggung jawab atas fungsi audio analog</p>
 
 ## Komponen Tambahan Motherboard
@@ -116,3 +129,5 @@ RJ45 port, yaitu komponen untuk menghubungkan dengan kabel ethernet.</p>
 [Apa itu Motherboard](https://kumparan.com/kabar-harian/bagian-bagian-motherboard-dan-fungsinya-1xjCtdWcq23/1)
 
 [Komponen Utama Motherboard](https://kumparan.com/kabar-harian/bagian-bagian-motherboard-dan-fungsinya-1xjCtdWcq23/full)
+
+[Komponen Utama Motherboard](https://kumparan.com/kabar-harian/bagian-bagian-motherboard-dan-fungsinya-1xjCtdWcq23/2)
