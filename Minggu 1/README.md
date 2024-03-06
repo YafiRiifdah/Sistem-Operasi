@@ -12,14 +12,14 @@
     <strong>Maula Shahihah Nur Sa'adah (3123500008)</strong>
   </p>
 
-<h3 style="text-align: center;line-height: 1.5">Politeknik Elektronika Negeri Surabaya<br>Departemen Teknik Informatika Dan Komputer<br>Program Studi Teknik Informatika<br>2024/2025</h3>
+<h3 style="text-align: center;line-height: 1.5">Politeknik Elektronika Negeri Surabaya<br>Departemen Teknik Informatika Dan Komputer<br>Program Studi Teknik Informatika<br>2023/2024</h3>
   <hr><hr>
 </div>
 
 ## Daftar Isi
 
 1. [Pendahuluan](#sistem-operasi-)
-2. [Soal 1](#1-jelaskan-langkah-langkah-proses-booting)
+2. [Soal 1](#1-jelaskan-langkah-langkah-proses-booting-)
 3. [Soal 2](#2-bagaimana-cara-install-debian-di-virtual-box-)
 4. [Referensi](#referensi)
 
@@ -37,249 +37,381 @@ Debian adalah sistem operasi komputer yang tersusun dari paket-paket perangkat l
 
 ### 1. Jelaskan langkah-langkah proses booting!
 
-## Proses Booting
-
 Proses booting pada komputer, termasuk laptop, terdiri dari beberapa tahapan yang menyusun dari saat tombol power ditekan hingga sistem operasi siap untuk digunakan. Berikut adalah tahapan-tahapan proses booting :
 
-1. <b>Power On</b>
+1. <b>Power ON</b>
+![App Screenshot](img/Power%20on.jpg)
 Saat tombol power atau tombol reset dihidupkan, sumber daya listrik akan mengalir ke komputer.
 Kemudian, perangkat keras akan menerima daya untuk dinyalakan.
 
 2. <b>Power-On Self-Test (POST)</b>
+![App Screenshot](img/POST.png)
 Setelah dinyalakan, komputer akan melakukan Power-On Self-Test atau POST, yang merupakan serangkaian tes perangkat keras untuk memastikan bahwa semuanya berfungsi dengan baik. 
 POST akan memeriksa RAM, prosesor, kartu grafis, dan perangkat keras lainnya. 
 Jika ada masalah dengan perangkat keras, komputer akan memberikan pesan kesalahan yang sesuai.
 
 3. <b>Inisialisasi Perangkat Keras</b>
+![App Screenshot](img/Inisialisasi.jpg)
 Setelah POST selesai, komputer akan menginisialisasi perangkat keras seperti hard drive, keyboard, mouse, dan perangkat lainnya. 
-Proses ini melibatkan tahap mengenali perangkat keras, memuat driver yang diperlukan, dan menyiapkan perangkat untuk digunakan.
 
 4. <b>Membaca Sektor Boot</b>
+![App Screenshot](img/Boot%20loader.jpg)
 Selanjutnya, komputer akan mencari sektor boot di hard drive atau perangkat penyimpanan lainnya. 
 Sektor boot sendiri adalah area khusus yang berisi instruksi awal untuk memuat sistem operasi.
 
 5. <b>Memuat Sistem Operasi</b>
+![App Screenshot](img/sistem%20operasi%20loading.jpg)
 Setelah sektor boot ditemukan, komputer akan memuat sistem operasi ke dalam memori utama (RAM). 
 Kemudian, sistem operasi akan mengambil alih kendali dan mulai menjalankan program-program yang diperlukan untuk mengoperasikan komputer.
 
-### 2. Bagaimana cara install Debian 12 di Virtual Box?
+### 2. Bagaimana cara install Debian 12 di VirtualBox?
 
-## Tahap Instalasi
+## Installation
 
 ### Langkah 1
 
-<h3>Install Aplikasi Virtualbox</h3>
-<p><b>1.</b> Buka Browser anda lalu ketik pada pencarian VirtualBox</p>
-<p><b>2.</b> Klik download virtualbox</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/0.png">
+Download dan Install Software Virtualbox
 
-<p><b>3.</b>Pilih varian platform packages yang ingin anda gunakan, lalu download</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/01.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/1.png?raw=true)
 
-<p><b>4.</b>Tunggu sampai download selesai</p>
-  
-  <p><b>5.</b>buka apikasi virtualbox</p>
-  <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/02.png">
-  <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/1.png">
+Download VirtualBox sesuai dengan Sistem Operasi dan spesifikasi yang digunakan
 
-  <p><b>6.</b>Klik next</p>
-  <img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/2.png">
+### Langkah 2
 
-<p><b>7.</b>Setelah anda next maka akan uncul tampilan seperti berikut</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/3.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/2.png?raw=true)
 
-<p><b>8.</b>Klik "Yes" untuk melanjutkan proses instalasi</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/4.png">
 
-<p><b>9.</b>Klik Install</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/5.png">
+Buka VirtualBox, kemudian klik "Next"
 
-<p><b>10.</b>Tunggu sampai proses selesai</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/6.png">
+### Langkah 3
 
-<p><b>11.</b>Jika sudah opsi Start Oracle VM Virtual Box dan klik tombol Finish.</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/Virtualbox/7.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/3.png?raw=true)
 
-<p>Selsesai</p>
+Lanjut klik "Next"
 
-#### Langkah 2
-<h3>Instalasi Debian</h3>
-<p><b>1.</b>Klik "new" untuk membuat virtual machine</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/1.png">
+### Langkah 4
 
-<p><b>2.</b>Create virtual machine dengan mengisi nama, dan iso image. tap checklist dan next</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/Screenshot%202024-02-22%20151734.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/4.png?raw=true)
 
-<p><b>3.</b>Ubah ukuran base memory menjadi 4096 dan Cpu menjadi 2</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/3.png">
+Klik "Yes" untuk melanjutkan install software VirtualBox
 
-<p><b>4.</b>Ubah ukuran virtual hardisk menjadi 26,50 GB</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/4.png">
+### Langkah 5
 
-<p><b>5.</b>klik finis</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/5.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/5.png?raw=true)
 
-<p><b>6.</b>Klik start</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/5.png">
+Klik "Install"
 
-<p><b>7.</b>Pilih bahasa sesuai keinginan</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/6.png">
+### Langkah 6
 
-<p><b>8.</b>Pilih Lokasi Asia</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/7.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/6.png?raw=true)
 
-<p><b>9.</b>Pilih lokasi (Indonesia)</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/8.png">
+Tunggu hingga proses instalasi selesai
 
-<p><b>10.</b>Pilih Wilayah (United States)</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/9.png">
+### Langkah 7
 
-<p><b>11.</b>Pilih Keyboard (American English)</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/10.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/7.png?raw=true)
 
-<p><b>12.</b>Tunggu loading hingga selesai</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/11.png">
+Klik "Finish" 
 
-<p><b>13.</b>Masukkan Hostname</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/12.png">
+### Langkah 8
 
-<p><b>14.</b>Langsung Klik Continue</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/14.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/8.png?raw=true)
 
-<p><b>15.</b>Buat Paswword</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/15.png">
+Ini adalah tampilan awal pada software VirtualBox yang sudah terinstall kemudian klik "New"
 
-<p><b>16.</b>Masukkan nama kalian</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/16.png">
+### Langkah 9
 
-<P><b>17.</b>Buat Username</P>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/17.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/9.png?raw=true)
 
-<p><b>18.</b>Setting Password</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/18.png">
+Masukkan nama dan file .iso debian 12 yang sudah di download lalu klik "Next"
 
-<p><b>19.</b>Konfigurasi waktu (Western)</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/19.png">
+### Langkah 10
 
-<p><b>20.</b>Metode Praktisi, pilih manual</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/20.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/10.png?raw=true)
 
-<p><b>21.</b>Pilhb partisi disk yang ingin di modifikasi</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/21.png">
+Isikan Base Memory sebesar 4096 MB dan prosesor CPU sebesar 2 Core
 
-<p><b>22.</b>Klik Yes, lalu continue</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/22.png">
+### Langkah 11
 
-<p><b>23.</b>Pilih Free Space lalu klik continue</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/23.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/11.png?raw=true)
 
-<p><b>24.</b>Pilih Create New Partition</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/24.png">
 
-<p><b>25.</b>Pilih size untuk partisi disk</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/25.png">
+Isikan ukuran Disk Size pada 26.50 GB 
 
-<p><b>26.</b>Pilih Primary</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/26.png">
+### Langkah 12
 
-<p><b>27.</b>Pilih Beginning</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/27.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/12.png?raw=true)
 
-<p><b>28.</b>Pilih Done Setting Up The Partition</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/29.png">
+Klik tombol "Finish" jika merasa sudah benar
 
-<p><b>29.</b>Pilih Free Space</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/30.png">
+### Langkah 13
 
-<p><b>30.</b>Pilih Create New partition</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/31.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/13.png?raw=true)
 
-<p><b>31.</b>Masukkan jumlah partisi yang anda inginkan  (5GB) lalu klik continue</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/32.png">
+Klik "Start" pada virtual machine yang dibuat
 
-<p><b>32.</b>Pilih Primary</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/33.png">
+### Langkah 14
 
-<p><b>33.</b>Pilih Beginning</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/34.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/graphical%20install.png?raw=true)
 
-<p><b>34.</b>klik mount point</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/35.png">
+Pilih "Graphic Install" kemudian enter
 
-<p><b>35.</b>Ubah menjadi /Storage</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/41.png">
+### Langkah 15
 
-<p><b>36.</b>"klik done setting up yhe partition"</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/42.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/14.png?raw=true)
 
-<p><b>37.</b>Pilih free space</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/35.png">
+Pilih bahasa yang ingin digunakan, kemudian klik "Continue"
 
-<p><b>38.</b>Pilih "Create New Partititon"</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/37.png">
+### Langkah 16
 
-<p><b>39.</b>Masukkan Size Partisi (1,5GB)</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/68.png"
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/15.png?raw=true)
 
-<p><b>40.</b>Pilih Primary</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/38.png">
+Pilih lokasi yang ingin digunakan, kemudian klik "Continue"
 
-<p><b>41.</b>Pilih Beginning</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/39.png">
+### Langkah 17
 
-<p><b>42.</b>Klik Us As, Lalu pilih Swap Area</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/65.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/16.png?raw=true)
 
-<p><b>43.</b>Klik Done Setting</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/66.png">
+Masukkan Hostname, kemudian klik "Continue"
 
-<p><b>44.</b>Klik Finish</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/67.png">
+### Langkah 18
 
-<p><b>45.</b>Tunggu Proses Install</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/43.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/17.png?raw=true)
 
-<p><b>46.</b>Pilih No</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/44.png">
+Kosongi domain, kemudian klik "Continue"
 
-<p><b>47.</b>Pilih Package Manager Indonesia</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/45.png">
+### Langkah 19
 
-<p><b>48/</b>Pilih kebo.pens.ac.id</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/46.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/18.png?raw=true)
 
-<p><b>49.</b>Http proxy dikosong kan saja</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/47.png">
+Masukkan password pertama untuk root user, kemudian klik "Continue"
 
-<p><b>50.</b>Tunggu loading hingga selesai</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/48.png">
+### Langkah 20
 
-<p><b>51.</b>Pilih "Yes"</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/49.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/19.png?raw=true)
 
-<p><b>52.</b>Cheklist seperti contoh dibawah ini</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/50.png">
+Masukkan full name untuk pengguna baru, kemudian klik "Continue"
 
-<p><b>53.</b>Tunggu sampai loading selesai</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/51.png">
+### Langkah 21
 
-<p><b>54.</b>Pilih "Yes"</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/53.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/20.png?raw=true)
 
-<p><b>55.</b>Pilih seperti contoh berikut</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/54.png".
+Masukkan username untuk akun anda, kemudian klik "Continue"
 
-<p><b>56.</b>Finish Instalisasi, Klik Continue</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/55.png">
+### Langkah 22
 
-<p><b>57.</b>Jika selesai maka akan tampiln seperti gambar berikut, maka debian siap digunakan</p>
-<img src="https://github.com/YafiRiifdah/Sistem-Operasi/blob/main/Image/debian/56.png">
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/21.png?raw=true)
+
+Masukkan password kedua untuk root user, kemudian klik "Continue"
+
+### Langkah 23
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/22.png?raw=true)
+
+Pilih waktu sesuai lokasi yang dipilih tadi, kemudian klik "Continue"
+
+### Langkah 24
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/23.png?raw=true)
+
+Pilih Manual, kemudian klik "Continue"
+
+### Langkah 25
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/24.png?raw=true)
+
+Pilih "SCSI3 (0,0,0) (sda) - 28.5 GB AT VBOX HARDDISK", kemudian klik "Continue"
+
+### Langkah 26
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/25.png?raw=true)
+
+Klik "Yes", kemudian klik "Continue"
+
+### Langkah 27
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/26.png?raw=true)
+
+Pilih "pri/log 28.5 GB FREE SPACE", kemudian klik "Continue"
+
+### Langkah 28
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/27.png?raw=true)
+
+Klik "Create a new partition" 
+
+### Langkah 29
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/28.png?raw=true)
+
+Masukkan size untuk partisi pertama sebesar 20GB
+
+### Langkah 30
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/29.png?raw=true)
+
+Pilih "Primary"
+
+### Langkah 31
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/30.png?raw=true)
+
+Pilih "Beginning" dan Continue
+
+### Langkah 32
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/31.png?raw=true)
+
+Klik "Done setting up the partition", kemudian klik "Continue" untuk kembali ke menu partisi selanjutnya
+
+### Langkah 33
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/32.png?raw=true)
+
+Kemudian klik "pri/log 8.5 GB FREE SPACE" untuk membuat partisi kedua lalu klik "Continue"
+
+### Langkah 34
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/33.png?raw=true)
+
+Masukkan size untuk /storage sebesar 5GB
+
+### Langkah 35
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/34.png?raw=true)
+
+Pilih "Primary" sama seperti partisi pertama
+
+### Langkah 36
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/35.png?raw=true)
+
+Pilih "Beginning" sama seperti partisi pertama
+
+### Langkah 37
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/36.png?raw=true)
+
+Pada Mount point pilih Enter manually dan isikan /storage, kemudian klik "Continue"
+
+### Langkah 38
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/37.png?raw=true)
+
+Pilih "pri/log 3.5 GB FREE SPACE" untuk membuat partisi ketiga
+
+### Langkah 39
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/38.png?raw=true)
+
+Masukkan size untuk swap area sebesar 1,5GB
+
+### Langkah 40
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/39.png?raw=true)
+
+Pilih opsi swap area
+
+### Langkah 41
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/40.png?raw=true)
+
+Klik "Done setting up the partition"
+
+### Langkah 42
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/41.png?raw=true)
+
+Klik "Finish"
+
+### Langkah 43
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/42.png?raw=true)
+
+Tunggu proses install hingga selesai
+
+### Langkah 44
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/43.png?raw=true)
+
+Pilih "No" dan klik "Continue"
+
+### Langkah 45
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/44.png?raw=true)
+
+Pilih lokasi "Indonesia" untuk konfigurasi package
+
+### Langkah 46
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/45.png?raw=true)
+
+Pilih "kebo.pens.ac.id"
+
+### Langkah 47
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/46.png?raw=true)
+
+Kosongi HTTP proxy dan klik "Continue"
+
+### Langkah 48
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/47.png?raw=true)
+
+Tunggu hingga proses selesai 
+
+### Langkah 49
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/48.png?raw=true)
+
+Pilih "Yes" dan klik "Continue"
+
+### Langkah 50
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/49.png?raw=true)
+
+Klik "Continue"
+
+### Langkah 51
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/50.png?raw=true)
+
+Tunggu hingga proses selesai 
+
+### Langkah 52
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/51.png?raw=true)
+
+Pilih /dev/sda dan klik "Continue"
+
+### Langkah 53
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/52.png?raw=true)
+
+Tunggu proses akhir instalasi hingga selesai
+
+### Langkah 54
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/53.png?raw=true)
+
+Pada tampilan ini Debian siap digunakan, kemudian klik "Continue"
+
+### Langkah 55
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/54.png?raw=true)
+
+Jika sudah, maka tampilan berubah seperti gambar diatas
+
+### Langkah 56
+
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/Week-1/img/55.png?raw=true)
+
+Debian GNU/Linux is ready to be used
 
 ## Referensi
-[VirtualBox Download](https://www.virtualbox.org/wiki/Downloads)
 
-[Debian 12 Download](https://www.debian.org/download)
-
-[Sistem Operasi](https://id.wikipedia.org/wiki/Sistem_operasi)
-
-[Debian](https://id.wikipedia.org/wiki/Debian)
+- [VirtualBox Download](https://www.virtualbox.org/wiki/Downloads)
+- [Debian 12 Download](https://www.debian.org/download)
+- [Sistem Operasi](https://id.wikipedia.org/wiki/Sistem_operasi)
+- [Debian](https://id.wikipedia.org/wiki/Debian)
+- [Proses Booting](https://asani.co.id/blog/booting-adalah/)
