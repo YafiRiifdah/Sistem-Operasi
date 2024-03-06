@@ -40,27 +40,27 @@ Debian adalah sistem operasi komputer yang tersusun dari paket-paket perangkat l
 Proses booting pada komputer, termasuk laptop, terdiri dari beberapa tahapan yang menyusun dari saat tombol power ditekan hingga sistem operasi siap untuk digunakan. Berikut adalah tahapan-tahapan proses booting :
 
 1. <b>Power ON</b>
-![App Screenshot](img/Power%20on.jpg)
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%201/Image/Power%20on.jpg">
 Saat tombol power atau tombol reset dihidupkan, sumber daya listrik akan mengalir ke komputer.
 Kemudian, perangkat keras akan menerima daya untuk dinyalakan.
 
 2. <b>Power-On Self-Test (POST)</b>
-![App Screenshot](img/POST.png)
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%201/Image/3.jpeg">
 Setelah dinyalakan, komputer akan melakukan Power-On Self-Test atau POST, yang merupakan serangkaian tes perangkat keras untuk memastikan bahwa semuanya berfungsi dengan baik. 
 POST akan memeriksa RAM, prosesor, kartu grafis, dan perangkat keras lainnya. 
 Jika ada masalah dengan perangkat keras, komputer akan memberikan pesan kesalahan yang sesuai.
 
 3. <b>Inisialisasi Perangkat Keras</b>
-![App Screenshot](img/Inisialisasi.jpg)
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%201/Image/1.jpeg">
 Setelah POST selesai, komputer akan menginisialisasi perangkat keras seperti hard drive, keyboard, mouse, dan perangkat lainnya. 
 
 4. <b>Membaca Sektor Boot</b>
-![App Screenshot](img/Boot%20loader.jpg)
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%201/Image/2.jpeg">
 Selanjutnya, komputer akan mencari sektor boot di hard drive atau perangkat penyimpanan lainnya. 
 Sektor boot sendiri adalah area khusus yang berisi instruksi awal untuk memuat sistem operasi.
 
 5. <b>Memuat Sistem Operasi</b>
-![App Screenshot](img/sistem%20operasi%20loading.jpg)
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%201/Image/4.jpeg">
 Setelah sektor boot ditemukan, komputer akan memuat sistem operasi ke dalam memori utama (RAM). 
 Kemudian, sistem operasi akan mengambil alih kendali dan mulai menjalankan program-program yang diperlukan untuk mengoperasikan komputer.
 
