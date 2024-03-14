@@ -86,26 +86,27 @@
 <p>3.  <strong>Maula Shahihah Nur Sa'adah</strong></p>
 
 <p>Iops64 sebanyak 5 kali</p>
-<img src="https://github.com/maulaasn/SysOp-3123500008/blob/main/week-3/img/daffa-iops64.jpeg">
+<img src="https://github.com/maulaasn/SysOp-3123500008/blob/main/week-3/img/maula-iops64.png">
 
 <p>Flops64 sebanyak 5 kali</p>
-<img src="https://github.com/maulaasn/SysOp-3123500008/blob/main/week-3/img/daffa-flops64.jpeg"
+<img src="https://github.com/maulaasn/SysOp-3123500008/blob/main/week-3/img/maula-flops64.png"
 
 </br>
 
-<h2 align="center">Analisa Hasil Benchmarking</h2>
+## Tabel Perbandingan Pengujian
 
-<p justify-content="center">
+| Nama  | Max Single Core FLOPS | Max Single Core IOPS | Max CPU FLOPS | Max CPU IOPS |
+| ----- | --------------------- | -------------------- | ------------- | ------------ |
+| Yaffi | 5.6                   | 3.9                  | 11.1          | 7.7          |
+| Daffa | 3.4                   | 3.5                  | 6.5           | 6.7          |
+| Maula | 4.5                   | 4.1                  | 8.2           | 7.5          |
 
-|                      | IOPS64 (Integer)         | FLOPS64 (Floating Point)    |
-|----------------------|------------------------|---------------------------|
-| Total Throughput     | 6.339286 Gigaiops     | 5.637343 Gigaflops       |
-| Single Core Throughput | 3.185454 Gigaiops   | 2.821573 Gigaflops       |
+## Analisa
+
+<p>Program yang dijalankan merupakan program benchmark untuk mengukur IOPS (Input Output Operations per Second) dan FLOPS (Floating-point Operations Per Second) pada CPU. Program dijalankan lima kali. Hasilnya menunjukkan bahwa CPU memiliki peringkat IOPS FLOPS yang lebih tinggi ketika lebih banyak inti yang digunakan.</p>
+
+<p>Secara keseluruhan, program benchmark menunjukkan bahwa peringkat IOPS FLOPS CPU meningkat seiring dengan meningkatnya jumlah inti CPU yang digunakan. Hal ini karena program ini mampu mendistribusikan beban kerja ke beberapa inti, sehingga memungkinkannya melakukan lebih banyak operasi secara bersamaan.
 </p>
-
-<p>Dengan melihat tabel di atas, dapat dilihat bahwa IOPS memiliki total throughput dan throughput single core yang lebih tinggi dibandingkan dengan FLOPS. Namun demikian, perbedaan antara total throughput dan throughput single core juga penting untuk diperhatikan karena menunjukkan seberapa baik CPU dapat mengalokasikan dan memanfaatkan sumber daya secara efisien antara inti tunggal dan total throughput.</p>
-<br>
-</div>
 
 ## Kesimpulan
 
