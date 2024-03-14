@@ -45,23 +45,23 @@
 ## Melakukan Benchmarking pada PC
 
 <p>1.  <strong>Melakukan Instalasi Package GCC,Make dan Git pada Debian 12</strong></p>
-<img src="img/sudo-apt-update.png"
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%203/Image/sudo-apt-update.png">
 <p>Lakukan perintah "$ sudo apt update" pada terminal kemudian ketik "$ sudo apt install gcc" untuk menginstall compile dan "$ sudo apt install git" untuk menginstall git pada debian</p>
 
 <p>2. <strong>Melakukan Git clone pada Debian 12</strong></p>
-<img src="img/git-clone.png"
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%203/Image/IMG_Git%20clone.png">
 <p>Arahkan direktori pada terminal yang ingin dituju lalu ketik "$ git init" kemudian "$ git clone (paste link github) lalu tekan enter</p>
 
 <p>3. <strong>Melakukan Build Binaries, Cleaning dan Install Binaries</strong></p>
-<img src="img/make.png"
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%203/Image/make.png">
 <p>Arahkan direktori pada folder flops/iops yang telah dilakukan git clone pada langkah sebelumnya kemudian buka terminal dan ketik "$ make"</p>
-<img src="img/make-clean.png"
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%203/Image/make-clean.png">
 <p>Kemudian lakukan perintah "$ make clean" lalu ketik "$ sudo make install" untuk menginstall binaries pada debian.</p>
 
 <p>4. <strong>Melakukan Proses Benchmarking menggunakan Iops dan Flops</strong></p>
-<img src="img/iops64.png"
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%203/Image/iops64.png">
 <p>Untuk benchmarking menggunakan iops ketik pada terminal "$ iops32 $(nproc)" atau iops64 sesuaikan dengan spesifikasi laptop yang dipakai</p>
-<img src="img/flops64.png"
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%203/Image/IMG_FLOPS64.png">
 <p>Untuk benchmarking pada flops sama seperti iops hanya saja mengganti dari iops menjadi flops "$ flops32 $(nproc)" atau $ flops64 $(nproc)</p>
 </br>
 
@@ -70,38 +70,42 @@
 <p>1.  <strong>Muhammad Yaffi Rifdah Zayyan</strong></p>
 
 <p>Iops64 sebanyak 5 kali</p>
-<img src="img/yaffi-iops64.jpeg"
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%203/Image/yaffi-iops64.jpeg">
 
 <p>Flops64 sebanyak 5 kali</p>
-<img src="img/yaffi-flops64.jpeg"
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%203/Image/yaffi-flops64.jpeg">
 
 <p>2.  <strong>Muhammad Daffa Erfiansyah</strong></p>
 
 <p>Iops64 sebanyak 5 kali</p>
-<img src="img/daffa-iops64.jpeg"
+<img src="https://github.com/maulaasn/SysOp-3123500008/blob/main/week-3/img/daffa-iops64.jpeg">
 
 <p>Flops64 sebanyak 5 kali</p>
-<img src="img/daffa-flops64.jpeg"
+<img src="https://github.com/maulaasn/SysOp-3123500008/blob/main/week-3/img/daffa-flops64.jpeg">
 
 <p>3.  <strong>Maula Shahihah Nur Sa'adah</strong></p>
 
 <p>Iops64 sebanyak 5 kali</p>
-<img src="img/daffa-iops64.jpeg"
+<img src="https://github.com/maulaasn/SysOp-3123500008/blob/main/week-3/img/daffa-iops64.jpeg">
 
 <p>Flops64 sebanyak 5 kali</p>
-<img src="img/daffa-flops64.jpeg"
+<img src="https://github.com/maulaasn/SysOp-3123500008/blob/main/week-3/img/daffa-flops64.jpeg"
 
 </br>
 
-## Tabel Perbandingan Pengujian
+<h2 align="center">Analisa Hasil Benchmarking</h2>
 
-| Nama  | Max Single Core FLOPS | Max Single Core IOPS | Max CPU FLOPS | Max CPU IOPS |
-| ----- | --------------------- | -------------------- | ------------- | ------------ |
-| Yaffi | 5.6                   | 3.9                  | 11.1          | 7.7          |
-| Daffa | 3.4                   | 3.5                  | 6.5           | 6.7          |
-| Maula |                       |                      |               |              |
+<p justify-content="center">
 
-## Analisa
+|                      | IOPS64 (Integer)         | FLOPS64 (Floating Point)    |
+|----------------------|------------------------|---------------------------|
+| Total Throughput     | 6.339286 Gigaiops     | 5.637343 Gigaflops       |
+| Single Core Throughput | 3.185454 Gigaiops   | 2.821573 Gigaflops       |
+</p>
+
+<p>Dengan melihat tabel di atas, dapat dilihat bahwa IOPS memiliki total throughput dan throughput single core yang lebih tinggi dibandingkan dengan FLOPS. Namun demikian, perbedaan antara total throughput dan throughput single core juga penting untuk diperhatikan karena menunjukkan seberapa baik CPU dapat mengalokasikan dan memanfaatkan sumber daya secara efisien antara inti tunggal dan total throughput.</p>
+<br>
+</div>
 
 ## Kesimpulan
 
