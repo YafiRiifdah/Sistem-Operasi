@@ -95,11 +95,11 @@
 
 ## Tabel Perbandingan Pengujian
 
-| Nama  | Max Single Core FLOPS | Max Single Core IOPS | Max CPU FLOPS | Max CPU IOPS |
-| ----- | --------------------- | -------------------- | ------------- | ------------ |
-| Yaffi | 5.6                   | 3.9                  | 11.1          | 7.7          |
-| Daffa | 3.4                   | 3.5                  | 6.5           | 6.7          |
-| Maula | 4.5                   | 4.1                  | 8.2           | 7.5          |
+| Nama  | Spesifikasi                                   | Max Single Core FLOPS | Max Single Core IOPS | Max CPU FLOPS    | Max CPU IOPS   |
+| ----- | --------------------------------------------- | --------------------- | -------------------- | ---------------- | ---------------|
+| Yaffi | Intel® Core™ i5-1335U Processor  4.6 GHz      |  5.6 Gigaflops        | 3.9 Gigaiops         | 11.1 Gigaflops   | 7.7 Gigaiops   |
+| Daffa | AMD Ryzen 3 3200U 2.60 GHz                    |  3.4 Gigaflops        | 3.5 Gigaiops         | 6.5  Gigaflops   | 6.7 Gigaiops   |
+| Maula | AMD Ryzen 3 3250U with Radeon Graphics 2.6GHz |  4.5 Gigaflops        | 4.1 Gigaiops         | 8.2  Gigaflops   | 7.5 Gigaiops   |
 
 ## Analisa
 
