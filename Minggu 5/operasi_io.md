@@ -1,5 +1,5 @@
-   <div align="center">
-  <h1 style="text-align: center;font-weight: bold">Pratikum Operasi Input & Output Minggu 4<br>Sistem Operasi</h1>
+<div align="center">
+  <h1 style="text-align: center;font-weight: bold">Pratikum Minggu 5<br>Proses dan Manajemen Proses<br>Sistem Operasi</h1>
   <h4 style="text-align: center;">Dosen Pengampu : Dr. Ferry Astika Saputra, S.T., M.Sc.</h4>
 </div>
 <br/>
@@ -12,275 +12,252 @@
     <strong>Maula Shahihah Nur Sa'adah (3123500008)</strong>
   </p>
 
-   <h3 style="text-align: center;line-height: 1.5">Politeknik Elektronika Negeri Surabaya<br>Departemen Teknik Informatika Dan Komputer<br>Program Studi Teknik Informatika<br>2023/2024</h3>
+  <h3 style="text-align: center;line-height: 1.5">Politeknik Elektronika Negeri Surabaya<br>Departemen Teknik Informatika Dan Komputer<br>Program Studi Teknik Informatika<br>2023/2024</h3>
   <hr><hr>
 </div>
 
-## TUGAS PENDAHULUAN:
-
-## Jawablah pertanyaan-pertanyaan di bawah ini :
-
-1. Apa yang dimaksud dengan proses?
-2. Apa yang dimaksud perintah untuk menampilkan suatu proses: ps, ps tree.
-3. Sebitkan opsi yang dapat diberikan pada perintah ps
-4. Apa yang dimaksud dengan sinyal ? Apa perintah untuk mengirim sinyal ?
-5. Apa yang dimaksud dengan proses foreground dan background padajob control ?
-6. Apa yamh dimaksud perintah-perintah penjadwalan prioritas: top, nice, renice
-
-## Jawaban:
-1. <b>Redirection (Pembelokan) :</b> 
-Membelokkan strandar output suatu program ke file atau membelokkan standar input suatu program dari suatu file.
-
-2. <b>Pipeline (Pipa):</b>
- Mekanisme pipa digunakan sebagai alat komunikasi antar proses.
- Input => Proses 1 => Output = Input => Proses 2 => Output
-Proses 1 menghasilkan output yang selanjutnya digunakan sebagai input oleh Proses 2. Hubungan output input ini dinamakan pipa, yang menghubungkan Proses 1 dengan Proses 2 dan dinyatakan dengan symbol "|".
-```
-   Proses1 | Proses
-```
-
-3. yang dimaksud perintah di bawah ini :
-<br><b>echo :</b> Menampilkan text 
-<br><b>cat :</b> Melihat isi file 
-<br><b>more :</b> Membuka file satu per satu 
-<br><b>sort :</b> Digunakan untuk mengurutkan masukannya berdasarkan urutan nomor ASCII dari karakter 
-<br><b>grep :</b> Digunakan untuk menyaring masukannya dan menampilkan baris-baris yang hanya mengandung pola yang ditentukan.
-<br><b>wc :</b> Digunakan untuk menghitung jumlah baris, kata dan karakter dari baris-baris masukan yang diberikan kepadanya. Untuk mengetahui berapa baris gunakan option -1. Untuk mengetahui berapa kata, gunakan option -w dan untuk mengetahui berapa karakter, gunakan option -c. Jika salah satu option tidak digunakan, maka tampilannya adalah jumlah baris, jumlah kata dan jumlah karakter .
-<br><b>cut :</b> Digunakan untuk mengambil  kolom tertentu dan baris-baris masukannya, yang ditentukan pada opinion -c 
-<br><b>uniq :</b> Digunakan untuk menghilangkan baris-baris berurutan yang mengalami duplikasi, biasanya digabungkan dalam pipeline dengan sort.
+<div>
+<h1 align="center">Pratikum 4 A<br>Proses dan Manajemen Proses</h1>
+<h3>A. Tugas Pendahuluan</h3>
+<ul>1. Apa yang dimaksud dengan proses?
+<ul><li>Proses adalah program yang sedang dieksekusi.</ul> 
+2. Apa yang dimaksud perintah untuk menampilkan status proses: ps, pstree.
+<ul><li>ps adalah singkatan dari "process status". Perintah ini digunakan untuk menampilkan daftar proses yang sedang berjalan di sistem dan menampilkan Proses Id (PID)</ul> 
+<ul><li>pstree adalah perintah yang menampilkan daftar proses dalam bentuk pohon (hierarchy).</ul> 
+3. Sebutkan opsi yang dapat diberikan pada perintah ps
+<ul><li>-e: Menampilkan semua proses</ul> 
+<ul><li>-f: Menampilkan output dalam format yang lebih lengkap, termasuk informasi seperti UID, PID, PPID, C, STIME, TTY, TIME, dan CMD.</ul> 
+<ul><li>-u user: Menampilkan proses yang dimiliki oleh pengguna tertentu.</ul> 
+<ul><li>-a: Menampilkan proses dari semua pengguna, bukan hanya dari pengguna yang sedang login.</ul> 
+4. Apa yang dimaksud dengan sinyal? apa perintah untuk mengirim sinyal?
+<ul><li>sinyal adalah cara untuk mengirim pesan atau perintah ke proses atau thread di dalam sistem.</ul> 
+<ul><li>Proses mengirim sinyal melalui instruksi “kill” dengan format
+<i>kill [-nomor sinyal] PID</i>
+</ul> 
+5. Apa yang dimaksud dengan proses foreground dan background pada job control?
+<ul><li>foreground: Proses yang diciptakan oleh pemakai langsung pada terminal (interaktif, dialog) Pada foreground hanya diperuntukkan untuk satu job pada satu waktu. Job pada foreground akan mengontrol shell - menerima input dari keyboard dan mengirim output ke layar.</ul> 
+<ul><li>Background: adalah proses yang berjalan di latar belakang tanpa memerlukan interaksi langsung dengan pengguna. Job pada background tidak menerima input dari terminal, biasanya berjalan tanpa memerlukan interaksi.</ul> 
+6. Apa yang dimaksud perintah-perintah penjadwalan prioritas: top, nice, renice.
+<ul><li><b>top</b> adalah perintah yang digunakan untuk menampilkan daftar proses yang sedang berjalan di sistem secara real-time.</ul> 
+<ul><li><b>nice</b> adalah perintah yang digunakan untuk menjalankan proses dengan prioritas yang berbeda. Prioritas ini diukur dalam "nilai nice". Semakin kecil nilai nice, semakin tinggi prioritasnya.</ul> 
+<ul><li><b>renice</b> adalah perintah yang digunakan untuk mengubah prioritas (nilai nice) dari proses yang sedang berjalan dan menurunkan atau meningkatkan prioritas suatu proses</ul> 
+</ul>
+<h3>B. Percobaan</h3>
+<ul><b>Percobaan 1: Status Proses</b>
+<br>1. Instruksi ps (process status) digunakan untuk melihat kondisi proses yang ada. PID adalah Nomor Identitas Proses, TTY adalah nama terminal dimana proses tersebut aktif, STAT berisi S (Sleeping) dan R (Running), COMMAND merupakan instruksi yang digunakan.
+<i>$ ps</i>
 
 <br>
 
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_01.png?raw=true)
 
-## PERCOBAAN:
+<p><b>Analisa:</b>
+melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Proses, TTY adalah nama terminal dimana proses tersebut aktif. Pada gambar tersebut PID 4242 untuk proses terminal/bash kemudian untuk PID 4245 untuk proses ps.
+</p>
+<br>2. Untuk melihat faktor/elemen lainnya, gunakan option –u (user). %CPU adalah presentasi CPU time yang digunakan oleh proses tersebut, %MEM adalah presentasi system memori yang digunakan proses, SIZE adalah jumlah memori yang digunakan, RSS (Real System Storage) adalah jumlah memori yang digunakan, START adalah kapan proses tersebut diaktifkan
+<i>$ ps -u</i>
 
-1. Login sebagai user.
-2. Bukalah Console Terminal dan lakukan percobaan-percobaan di bawah ini. Perhatikan hasil setiap percobaan.
-3. Selesaikan soal-soal latihan.
-
-
-## Percobaan 1 : File descriptor
-
-1. Output ke layar (standar output), input dari system (kernel)
-    ```
-    $ ps
-    ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-1.png?raw=true)
-
-2. Output ke layar (standar output), input dari keyboard (standard input)
-   ```
-    $ cat
-    hallo, apa kabar
-    hallo, apa kabar
-    exit dengan ^d
-    exit dengan ^d
-    [Ctrl-d]
-   ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-2.png?raw=true)
-
-3. Input nama direktori, output tidak ada (membuat direktori baru), bila terjadi error maka tampilan error pada layar (standard error)
-   ```
-   $ mkdir mydir
-   $ mkdir mydir **(Terdapat pesan error)**
-   ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-3.png?raw=true)
-
-## Percobaan 2 : Pembelokan (redirection)
-1. Pembelokan standar output
-   ```
-    $ cat 1> myfile.txt
-    Ini adalah teks yang saya simpan ke file myfile.txt
-   ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-4.png?raw=true)
-
-2. Pembelokan standar input, yaitu input dibelokkan dari keyboard menjadi dari file
-   ```
-    $ cat 0< myfile.txt
-    $ cat myfile.txt
-   ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-5.png?raw=true)
-
-3. Pembelokan standar error untuk disimpan di file
-   ```
-    $ mkdir mydir (Terdapat pesan error)
-    $ mkdir mydir 2> myerror.txt
-    $ cat myerror.txt
-   ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-6.png?raw=true)
-
-4. Notasi 2>&1 : pembelokan standar error (2>) adalah identik dengan file descriptor 1.
-   ```
-    $ ls filebaru (Terdapat pesan error)
-    $ ls filebaru 2> out.txt
-    $ cat out.txt
-    $ ls filebaru 2> out.txt 2>&
-    $ cat out.txt
-   ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-7.png?raw=true)
-
-5. Notasi 1>&2 (atau >&2) : pembelokan standar output adalah sama dengan file descriptor 2 yaitu standar error
-   ```
-   $ echo “mencoba menulis file” 1> baru
-   $ cat filebaru 2> baru 1>&
-   $ cat baru
-   ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-8.png?raw=true)
-
-6. Notasi >> (append)
-   ```
-   $ echo “kata pertama” > surat
-   $ echo “kata kedua” >> surat
-   $ echo “kata ketiga” >> surat
-   $ cat surat
-   $ echo “kata keempat” > surat
-   $ cat surat
-   ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-9.png?raw=true)
-
-7. Notasi here document (<<++ .... ++) digunakan sebagai pembatas input dari keyboard. Perhatikan bahwa tanda pembatas dapat digantikan dengan tanda apa saja, namun harus sama dan tanda penutup harus diberikan pada awal baris
-   ```
-   $ cat <<++
-   Hallo, apa kabar?
-   Baik-baik saja?
-   Ok!
-   ++
-   $ cat <<%%%
-   Hallo, apa kabar?
-   Baik-baik saja?
-   Ok!
-   %%%
-   ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-10.png?raw=true)
-
-8. Notasi – (input keyboard) adalah representan input dari keyboard. Artinya menampilkan file 1, kemudian menampilkan input dari keyboard dan menampilkan file 2. Perhatikan bahwa notasi “-“ berarti menyelipkan input dari keyboard
-  ```
-  $ cat myfile.txt – surat
-  ```
-  ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-11.png?raw=true)
 
 <br>
 
-## Percobaan 3 : Pipa (pipeline)
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_02.png?raw=true)
 
-1. Operator pipa (|) digunakan untuk membuat eksekusi proses dengan melewati data langsung ke data lainnya.
-   ```
-   $ who
-   $ who | sort
-   $ who | sort –r
-   $ who > tmp
-   $ sort tmp
-   $ rm tmp
-   $ ls –l /etc | more
-   $ ls –l /etc | sort | more
-   ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-12.png?raw=true)
+<p>Analisa:  Instruksi ps -u (user), digunakan untuk melihat elemen/faktor lain dari kondisi proses yang ada serta menampilkan nama user
 
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-13.png?raw=true)
+</p>
+<br>3. Mencari proses yang spesifik pemakai. Proses diatas hanya terbatas pada proses milik pemakai, dimana pemakai teresbut melakukan login
+<i>$ ps –u (user)</i>
 
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-14.png?raw=true)
-
-2. Untuk membelokkan standart output ke file, digunakan operator ">"
-   ```
-   $ echo hello
-   $ echo hello > output
-   $ cat output
-   ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-15.png?raw=true)
-
-3. Untuk menambahkan output ke file digunakan operator ">>"
-   ```
-   $ echo bye >> output
-   $ cat output
-   ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-16.png?raw=true)
-
-4. Untuk membelokkan standart input digunakan operator "<"
-   ```
-   $ cat < output
-   ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-17.png?raw=true)
-
-5. Pembelokan standart input dan standart output dapat dikombinasikan tetapi tidak boleh menggunakan nama file yang sama sebagai standart input dan output.
-   ```
-   $ cat < output > out
-   $ cat out
-   $ cat < output >> out
-   $ cat out
-   $ cat < output > output
-   $ cat output
-   $ cat < out >> out (Proses tidak berhenti)
-   [Ctrl-c]
-   $ cat out
-   ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-18.png?raw=true)
 
 <br>
 
-## Percobaan 4 : Filter
-1. Pipa juga digunakan untuk mengkombinasikan utilitas sistem untuk membentuk fungsi yang lebih kompleks
-   ```
-    $ w –h | grep <user>
-    $ grep <user> /etc/passwd
-    $ ls /etc | wc
-    $ ls /etc | wc –l
-    $ cat > kelas1.txt
-    Badu
-    Zulkifli
-    Yulizir
-    Yudi
-    Ade
-    [Ctrl-d]
-    $ cat > kelas2.txt
-    Budi
-    Gama
-    Asep
-    Muchlis
-    [Ctrl-d]
-    $ cat kelas1.txt kelas2.txt | sort
-    $ cat kelas1.txt kelas2.txt > kelas.txt
-    $ cat kelas.txt | sort | uniq
-   ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-19.png?raw=true)
-   
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-20.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_03.png?raw=true)
+
+<p>Analisa:Mencari proses yang spesifik pemakai. Proses diatas hanya terbatas pada proses milik pemakai. Perintah tersebut digunakan untuk menampilkan proses pada user yang kita inginkan
+</p>
+<br>4.	Mencari proses lainnya gunakan opsi a (all) dan au (all user)
+<br><i>$ ps –a</i>
+<br><i>$ ps –au</i>
+
 
 <br>
 
-## LATIHAN:
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_04.png?raw=true)
 
-1. Lihat daftar secara lengkap pada direktori aktif, belokkan tampilan standard output   ke file baru.
-2. Lihat daftar secara lengkap pada direktori /etc/passwd, belokkan tampilan standard output ke file baru tanpa menghapus file baru sebelumnya.
-3. Urutkan file baru dengan cara membelokkan standard input.
-4. Urutkan file baru dengan cara membelokkan standard input dan standard output ke file baru.urut.
-5. Buatlah direktori latihan 2 sebanyak 2 kali dan belokkan standard error ke file rmdirerror.txt.
-6. Urutkan kalimat berikut :
-   ```
-   Jakarta
-   Bandung
-   Surabaya
-   Padang
-   Palembang
-   Lampung
-   ```
-  Dengan menggunakan notasi **here document (<@@@ ...@@@)** . [HINT](https://www.geeksforgeeks.org/how-to-use-here-document-in-bash-programming/)
-  
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_05.png?raw=true)
 
-7. Hitung jumlah baris, kata dan karakter dari file baru.urut dengan menggunakan filter dan tambahkan data tersebut ke file baru.
-8. Gunakan perintah di bawah ini dan perhatikan hasilnya.
-   ```
-    $ cat > hello.txt
-    dog cat
-    cat duck
-    dog chicken
-    chicken duck
-    chicken cat
-    dog duck
-    [Ctrl-d]
-    $ cat hello.txt | sort | uniq
-    $ cat hello.txt | grep “dog” | grep –v “cat”
-   ```
-## LAPORAN RESMI:
+<p>Analisa:Perintah ps -au digunakan untuk menampilkan informasi yang lebih rinci tentang semua proses yang sedang berjalan, termasuk proses yang dimiliki oleh pengguna (termasuk proses terminal yang sedang dijalankan) dan proses sistem.
 
-1. Analisa hasil percobaan 1 sampai dengan 4, untuk setiap perintah jelaskan tampilannya.
-2. Kerjakan latihan diatas dan analisa hasilnya
-3. Berikan kesimpulan dari praktikum ini.
+</p>
+<br><b>Percobaan 2: Menampilkan Hubungan Proses Parent dan Child</b>
+<br>1. Ketik <b>ps –eH</b> dan tekan Enter. Opsi e memilih semua proses dan opsi H menghasilkan tampilan proses secara hierarki. Proses child muncul dibawah proses parent. Proses child ditandai dengan awalan beberapa spasi.
+<br><i>$ ps -eH</i>
+
+
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_06.png?raw=true)
+
+<p>Analisa:Perintah tersebut digunakan untuk menampilkan seluruh proses secara hierarki. Dimana opsi e digunakan untuk memilih semua proses dan opsi H untuk menghasilkan tampilan proses secara hierarki.
+</p>
+<br>2. Ketik ps –e f dan tekan Enter. Tampilan serupa dengan langkah 2. Opsi
+–f akan menampilkan status proses dengan karakter grafis (\ dan _)
+<br><i>$ ps –e f</i>
+
+
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_07.png?raw=true)
+
+<p>Analisa:Menghasilkan tampilan serupa dengan langkah 2. Opsi f disini berfungsi untuk menampilkan STAT dari sebuah proses dan menampilkan status proses dengan karakter grafis ( \ dan _ )
+</p>
+<br>3. Ketik pstree dan tekan Enter. Akan ditampilkan semua proses pada sistem dalam bentuk hirarki parent/child. Proses parent di sebelah kiri proses child. Sebagai contoh proses init sebagai parent (ancestor) dari semua proses pada sistem. Beberapa child dari init mempunyai child. Proses login mempunya i proses bash sebagai child. Proses bash mempunyai proses child startx. Proses startx mempunyai child xinit dan seterusnya.
+<br><i>$ pstree</i>
+
+
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_08.png?raw=true)
+
+<p>Analisa: Gambar diatas tampak seperti pohon atau diagram. Perintah tersebut berfungsi untuk menampilkan struktur proses yang berjalan di sistem secara hirarkis parent/child.
+</p>
+<br>4. Ketik pstree | grep mingetty dan tekan Enter. Akan menampilkan semua proses mingetty yang berjalan pada system yang berupa console virtual. Selain menampikan semua proses, proses dikelompokkan dalam satu baris dengan suatu angka sebagai jumlah proses yang berjalan.
+<br><i>$ pstree | grep mingetty</i>
+
+
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_09.png?raw=true)
+
+<p>Analisa: Perintah ini berfungsi untuk menampilkan semua proses mingetty yang berjalan pada sistem yang berupa console virtual. Pada gambar diatas tidak ada output yang keluar dikarenakan tidak ada proses mingetty yang sedang berjalan
+</p>
+<br>5. Untuk melihat semua PID untuk proses gunakan opsi <b>–p</b>.
+<i>$ pstree –p</i>
+
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_09.png?raw=true)
+
+<p>Analisa: Perintah pstree -p dalam sistem operasi Linux adalah varian dari perintah pstree yang menampilkan struktur proses dalam bentuk pohon, namun dengan tambahan informasi tentang ID proses (PID) untuk setiap proses yang ditampilkan.
+</p>
+<br>6. Untuk menampilk an proses dan ancestor yang tercetak tebal gunakan opsi
+–h.
+<br><i>$ pstree –h</i>
+
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_10.png?raw=true)
+
+<p>Analisa:Dalam sistem Linux, perintah pstree -h digunakan untuk menampilkan struktur proses dalam bentuk pohon dengan opsi "human-readable" yang menyederhanakan ukuran angka yang besar ke format yang lebih mudah dipahami manusia.
+</p>
+<br><b>Percobaan 3: Menampilkan Status Proses dengan Berbagai Format</b>
+<br>1.	Ketik ps –e | more dan tekan Enter. Opsi -e menampilkan semua proses dalam bentuk 4 kolom : PID, TTY, TIME dan CMD.
+<br><i>$ ps –e | more</i>
+<br>Jika halaman penuh terlihat prompt --More-- di bagian bawah screen, tekan q untuk kembali ke prompt perintah.
+
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_11.png?raw=true)
+
+<p>Analisa: Perintah ps -e | more berfungsi untuk menampilkan daftar semua proses yang sedang berjalan di sistem secara berurutan, dan outputnya akan ditampilkan secara bertahap menggunakan perintah more
+</p>
+<br>2.	Ketik ps ax | more dan tekan Enter. Opsi a akan menampilkan semua proses yang dihasilkan terminal (TTY). Opsi x menampilkan semua proses yang tidak dihasilkan terminal. Secara logika opsi ini sama dengan opsi –e . Terdapa 5 kolom : PID, TTY, STAT, TIME dan COMMAND.
+<br><i>$ ps ax | more</i>
+
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_12.png?raw=true)
+
+<p>Analisa: Opsi a akan menampilkan semua proses yang dihasilkan terminal (TTY). Opsi x menampilkan semua proses yang tidak dihasilkan terminal. Yang kemudian outputnya ditampilkan secara bertahap menggunakan perintah more
+
+</p>
+<br>3. Ketik ps –e f | more dan tekan Enter. Opsi –e f akan menampilkan semua proses dalam format daftar penuh.
+<br><i>$ ps ef | more</i>
+
+
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_13.png?raw=true)
+
+<p>Analisa: Ketika perintah ps – ef | more dieksekusi maka opsi -ef akan menampilkan semua proses dalam format daftar penuh. Yang kemudian outputnya ditampilkan secara bertahap menggunakan perintah more
+</p>
+<br>4. Ketik ps –eo pid, cmd | more dan tekan Enter. Opsi –eo akan menampilkan semua proses dalam format sesuai definisi user yaitu terdiri dari kolom PID dan CMD.
+<br><i>$ ps –eo pid,cmd | more</i>
+
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_14.png?raw=true)
+
+<p>Analisa: Opsi –eo akan menampilkan semua proses dalam format sesuai definisi user yaitu terdiri dari kolom PID dan CMD. Yang kemudian outputnya akan ditampilkan secara bertahap menggunakan perintah more
+</p>
+<br>5.	Ketik ps –eo pid,ppid,%mem,cmd | more dan tekan Enter. Akan menampilkan kolom PID, PPID dan %MEM.   PPID adalah proses ID dari proses parent. %MEM menampilkan persentasi memory system yang digunakan proses. Jika proses hanya menggunakan sedikit memory system akan dita mpilkan 0.
+<br><i>$ ps –eo pid,ppid,%mem,cmd | more</i>
+
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_15.png?raw=true)
+
+<p>Analisa: Perintah ps -eo pid,ppid,%mem,cmd | more akan menampilkan kolom PID, PPID dan %MEM. Dimana PPID adalah proses ID dari proses parent. %MEM menampilkan persentasi memory system yang digunakan proses. Jika proses hanya menggunakan sedikit memory system akan ditampilkan 0.
+</p>
+<br><b>Percobaan 4: Mengontrol proses pada shell</b>
+<br>1. Gunakan perintah yes yang mengirim output y yang tidak pernah berhenti
+<br><i>$ yes</i>
+
+
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_16.png?raw=true)
+
+<p>Analisa:Perintah yes akan memberikan output huruf y yang tidak pernah berhenti. Untuk menghentikannya harus menggunakan Ctrl + C
+
+</p>
+<br>2. Belokkan standart output ke /dev/null
+<br><i>$ yes > /dev/null</i>
+
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_17.png?raw=true)
+
+<p>Analisa: Membelokkan standard output dari perintah yes ke /dev/null. Untuk menghentikannya harus menggunakan Ctrl + C.
+</p>
+<br>3. Salah satu cara agar perintah yes tetap dijalankan tetapi shell tetap digunakan untuk hal yang lain dengan meletakkan proses pada background dengan menambahkan karakter & pada akhir perintah.
+<br><i>$ yes > /dev/null &</i>
+<br>Angka dalam ”[ ]” merupakan job number diikuti PID.
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_18.png?raw=true)
+
+<p>Analisa: Salah satu cara agar perintah yes tetap dijalankan tetapi shell tetap digunakan untuk hal yang lain dengan meletakkan proses pada background dengan menambahkan karakter '&' pada akhir perintah. [1] merupakan job number PID.
+
+</p>
+<br>4. Untuk melihat status proses gunakan perintah jobs.
+<br><i>$ jobs</i>
+
+
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_19.png?raw=true)
+
+<p>Analisa: Perintah di atas digunakan untuk melihat status proses yang telah digunakan.
+</p>
+<br>5. Untuk menghentikan job, gunakan perintah kill diikuti job number atau PID proses.   Untuk identifikasi job number, diikuti prefix dengan karakter ”%”.
+<br><i>$ kill %(nomor job) contoh : kill %1</i>
+
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_20.png?raw=true)
+
+<p>Analisa: Perintah kill digunakan untuk menghentikan job diikuti oleh job number atau PID Proses. Untuk identifikasi job number, penulisan perintah diikuti prefix dengan karakter %. Perintah jobs untuk melihat status job setelah diterminasi.
+
+</p>
+<br>6. Lihat status job setelah diterminasi
+<br><i>$ jobs</i>
+
+<br>
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_21.png?raw=true)
+
+<p>Analisa: Perintah di atas digunakan untuk melihat status proses yang telah digunakan.
+</p>
+
+</div>
