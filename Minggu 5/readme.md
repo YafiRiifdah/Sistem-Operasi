@@ -60,7 +60,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_02.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/ps%20-u.png)
 
 <p>Analisa:  Instruksi ps -u (user), digunakan untuk melihat elemen/faktor lain dari kondisi proses yang ada serta menampilkan nama user
 
@@ -71,7 +71,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_03.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/ps%20-u%20user.png)
 
 <p>Analisa:Mencari proses yang spesifik pemakai. Proses diatas hanya terbatas pada proses milik pemakai. Perintah tersebut digunakan untuk menampilkan proses pada user yang kita inginkan
 </p>
@@ -82,9 +82,9 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_04.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/ps%20-a.png)
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_05.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/ps%20-au.png)
 
 <p>Analisa:Perintah ps -au digunakan untuk menampilkan informasi yang lebih rinci tentang semua proses yang sedang berjalan, termasuk proses yang dimiliki oleh pengguna (termasuk proses terminal yang sedang dijalankan) dan proses sistem.
 
@@ -96,7 +96,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_06.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/ps%20-eh.png)
 
 <p>Analisa:Perintah tersebut digunakan untuk menampilkan seluruh proses secara hierarki. Dimana opsi e digunakan untuk memilih semua proses dan opsi H untuk menghasilkan tampilan proses secara hierarki.
 </p>
@@ -107,7 +107,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_07.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/ps%20-ef.png)
 
 <p>Analisa:Menghasilkan tampilan serupa dengan langkah 2. Opsi f disini berfungsi untuk menampilkan STAT dari sebuah proses dan menampilkan status proses dengan karakter grafis ( \ dan _ )
 </p>
@@ -117,7 +117,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_08.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/pstree.png)
 
 <p>Analisa: Gambar diatas tampak seperti pohon atau diagram. Perintah tersebut berfungsi untuk menampilkan struktur proses yang berjalan di sistem secara hirarkis parent/child.
 </p>
@@ -127,7 +127,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_09.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/pstree%20grep.png)
 
 <p>Analisa: Perintah ini berfungsi untuk menampilkan semua proses mingetty yang berjalan pada sistem yang berupa console virtual. Pada gambar diatas tidak ada output yang keluar dikarenakan tidak ada proses mingetty yang sedang berjalan
 </p>
@@ -146,7 +146,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_10.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/pstree%20grep.png)
 
 <p>Analisa:Dalam sistem Linux, perintah pstree -h digunakan untuk menampilkan struktur proses dalam bentuk pohon dengan opsi "human-readable" yang menyederhanakan ukuran angka yang besar ke format yang lebih mudah dipahami manusia.
 </p>
@@ -157,7 +157,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_11.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/ps%20-e%20more.png)
 
 <p>Analisa: Perintah ps -e | more berfungsi untuk menampilkan daftar semua proses yang sedang berjalan di sistem secara berurutan, dan outputnya akan ditampilkan secara bertahap menggunakan perintah more
 </p>
@@ -166,7 +166,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_12.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/ps%20ax%20more.png)
 
 <p>Analisa: Opsi a akan menampilkan semua proses yang dihasilkan terminal (TTY). Opsi x menampilkan semua proses yang tidak dihasilkan terminal. Yang kemudian outputnya ditampilkan secara bertahap menggunakan perintah more
 
@@ -177,7 +177,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_13.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/ps%20-ef.png)
 
 <p>Analisa: Ketika perintah ps – ef | more dieksekusi maka opsi -ef akan menampilkan semua proses dalam format daftar penuh. Yang kemudian outputnya ditampilkan secara bertahap menggunakan perintah more
 </p>
@@ -186,7 +186,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_14.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/ps%20-eo%20pid.png)
 
 <p>Analisa: Opsi –eo akan menampilkan semua proses dalam format sesuai definisi user yaitu terdiri dari kolom PID dan CMD. Yang kemudian outputnya akan ditampilkan secara bertahap menggunakan perintah more
 </p>
@@ -195,7 +195,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_15.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/ps%20-eo%20pid.png)
 
 <p>Analisa: Perintah ps -eo pid,ppid,%mem,cmd | more akan menampilkan kolom PID, PPID dan %MEM. Dimana PPID adalah proses ID dari proses parent. %MEM menampilkan persentasi memory system yang digunakan proses. Jika proses hanya menggunakan sedikit memory system akan ditampilkan 0.
 </p>
@@ -206,7 +206,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_16.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/%24%20yes.png)
 
 <p>Analisa:Perintah yes akan memberikan output huruf y yang tidak pernah berhenti. Untuk menghentikannya harus menggunakan Ctrl + C
 
@@ -216,7 +216,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_17.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/yes%20dev%20null%20C.png)
 
 <p>Analisa: Membelokkan standard output dari perintah yes ke /dev/null. Untuk menghentikannya harus menggunakan Ctrl + C.
 </p>
@@ -225,7 +225,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 <br>Angka dalam ”[ ]” merupakan job number diikuti PID.
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_18.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/yes%20dev%20null%20%26.png)
 
 <p>Analisa: Salah satu cara agar perintah yes tetap dijalankan tetapi shell tetap digunakan untuk hal yang lain dengan meletakkan proses pada background dengan menambahkan karakter '&' pada akhir perintah. [1] merupakan job number PID.
 
@@ -236,7 +236,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_19.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/jobs.png)
 
 <p>Analisa: Perintah di atas digunakan untuk melihat status proses yang telah digunakan.
 </p>
@@ -245,7 +245,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_20.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/kill%20%251.png)
 
 <p>Analisa: Perintah kill digunakan untuk menghentikan job diikuti oleh job number atau PID Proses. Untuk identifikasi job number, penulisan perintah diikuti prefix dengan karakter %. Perintah jobs untuk melihat status job setelah diterminasi.
 
@@ -255,7 +255,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_21.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/job%20terminated.png)
 
 <p>Analisa: Perintah di atas digunakan untuk melihat status proses yang telah digunakan.
 </p>
