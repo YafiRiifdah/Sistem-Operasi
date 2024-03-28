@@ -49,7 +49,7 @@
 
 <br>
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%205/Assets/IMG_01.png?raw=true)
+![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%205/Image/PS.png)
 
 <p><b>Analisa:</b>
 melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Proses, TTY adalah nama terminal dimana proses tersebut aktif. Pada gambar tersebut PID 4242 untuk proses terminal/bash kemudian untuk PID 4245 untuk proses ps.
