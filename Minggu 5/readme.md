@@ -76,7 +76,7 @@ melihat kondisi proses yang pada terminal saya. PID adalah Nomor Identitas Prose
 <p>Analisa:Mencari proses yang spesifik pemakai. Proses diatas hanya terbatas pada proses milik pemakai. Perintah tersebut digunakan untuk menampilkan proses pada user yang kita inginkan
 </p>
 <br>4.	Mencari proses lainnya gunakan opsi a (all) dan au (all user)
-<br><i>$ ps –a</i>
+<br><i>'$ ps –a'</i>
 <br><i>$ ps –au</i>
 
 
