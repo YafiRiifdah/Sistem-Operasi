@@ -151,32 +151,32 @@ Utilitas untuk melakukan pengontrolan proses dapat ditemukan pada sistem UNIX ad
 1. Login sebagai root.
 2. Buka 3 terminal, tampilkan pada screen yang sama.
 
-   ![App Screenshot](img/percobaan6_2.png)
+   ![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%206/Image/Screenshot%202024-04-03%20194428.png)
 
 3. Pada setiap terminal, ketik `PS1="\w;"` diikuti Enter. `\w` menampilkan path pada direktori home.
 
-   ![App Screenshot](img/percobaan6_3.png)
+   ![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%206/Image/Screenshot%202024-04-03%20194658.png)
 
 4. Karena login sebagai root, maka akan ditampilkan `~;` pada setiap terminal. Untuk setiap terminal ketik `pwd` dan tekan Enter untuk melihat bahwa Anda sedang berada pada direktori /root.
 
-   ![App Screenshot](img/percobaan6_4.png)
+   ![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%206/Image/Screenshot%202024-04-03%20194658.png)
 
 5. Buka terminal lagi (keempat), atur posisi sehingga keempat terminal terlihat pada screen.
 
-   ![App Screenshot](img/percobaan6_5.png)
+   ![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%206/Image/Screenshot%202024-04-03%20195014.png)
 
 6. Pada terminal keempat, ketik `top` dan tekan Enter. Maka program `top` akan muncul. Ketik i. `Top` akan menampilkan proses yang aktif. Ketik `lmt`. `Top` tidak lagi menampilkan informasi pada bagian atas dari screen. Pada percobaan ini, terminal ke empat sebagai jendela `Top`.
 
-   ![App Screenshot](img/percobaan6_6.png)
+   ![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%206/Image/Screenshot%202024-04-03%20195125.png)
 
    Ketik `lmt`
 
-   ![App Screenshot](img/percobaan6_6(2).png)
+   ![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%206/Image/Screenshot%202024-04-03%20195125.png)
 
 7. Pada terminal 1, bukalah program executable C++ dengan mengeti program `yes` dan tekan Enter.
 8. Ulangi langkah 7 untuk terminal 2.
 
-   ![App Screenshot](img/percobaan6_8.png)
+   ![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%206/Image/Screenshot%202024-04-03%20195209.png)
 
 9. Jendela Top akan menampilkan dua program `yes` sebagai proses yang berjalan. Nilai %CPU sama pada keduanya. Hal ini berarti kedua proses mengkonsumsi waktu proses yang sama dan berjalan sama cepat. PID dari kedua proses akan berbeda, misalnya 2628 dan 2629. Kemudiani gunakan terminal 3 (yang tidak menjalankan primes maupun Jendela Top) dan ketik `renice 19 <PID terminal 1>` (contoh: `renice 19 2628`) dan diikuti Enter. Hal ini berarti mengganti penjadwalan prioritas dari proses ke 19.
 
@@ -248,7 +248,7 @@ Utilitas untuk melakukan pengontrolan proses dapat ditemukan pada sistem UNIX ad
         `$ sh`
         `$ ps`
 
-        ![App Screenshot](img/latihan_1(2).png)
+        ![App Screenshot](https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%206/Image/Screenshot%202024-04-04%20100312.png)
 
         perintah `$ csh` adalah sebuah shell interaktif yang menawarkan lebih banyak sintaks dibandingkan dengan Bourne Shell. 
 
