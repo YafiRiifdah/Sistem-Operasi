@@ -494,22 +494,12 @@ I am a parent and I am quitting.                       (End)
 #include <unistd.h>
 #include <sys/wait.h>
 
-#define SIZE 4
+#define ROWS 4
+#define COLS 4
 
-void multiply(int A[][SIZE], int B[][SIZE], int C[][SIZE]) {
-    for (int i = 0; i < SIZE; ++i) {
-        for (int j = 0; j < SIZE; ++j) {
-            C[i][j] = 0;
-            for (int k = 0; k < SIZE; ++k) {
-                C[i][j] += A[i][k] * B[k][j];
-            }
-        }
-    }
-}
-
-void printMatrix(int matrix[][SIZE]) {
-    for (int i = 0; i < SIZE; ++i) {
-        for (int j = 0; j < SIZE; ++j) {
+void printMatrix(int matrix[ROWS][COLS]) {
+    for (int i = 0; i < ROWS; i++) {
+        for (int j = 0; j < COLS; j++) {
             printf("%d ", matrix[i][j]);
         }
         printf("\n");
@@ -517,108 +507,59 @@ void printMatrix(int matrix[][SIZE]) {
 }
 
 int main() {
-    int A[SIZE][SIZE] = {{1, 2, 3, 4},
-                         {5, 6, 7, 8},
-                         {9, 10, 11, 12},
-                         {13, 14, 15, 16}};
-    int B[SIZE][SIZE] = {{1, 0, 0, 0},
-                         {0, 1, 0, 0},
-                         {0, 0, 1, 0},
-                         {0, 0, 0, 1}};
-    int C[SIZE][SIZE];
-    int pid;
+    int matrix[ROWS][COLS];
+    int skalar = 2;
 
-    for (int i = 0; i < SIZE; ++i) {
-        pid = fork();
-
-        if (pid == 0) {
-            // Child process calculates a row of result matrix
-            for (int j = 0; j < SIZE; ++j) {
-                C[i][j] = 0;
-                for (int k = 0; k < SIZE; ++k) {
-                    C[i][j] += A[i][k] * B[k][j];
-                }
-            }
-            exit(0);
-        } else if (pid < 0) {
-            // Error handling
-            perror("fork");
-            exit(1);
+    for (int i = 0; i < ROWS; i++) {
+        for (int j = 0; j < COLS; j++) {
+            matrix[i][j] = i * j;
         }
     }
 
-    // Parent process waits for all child processes to finish
-    for (int i = 0; i < SIZE; ++i) {
-        wait(NULL);
-    }
+    printf("Matriks Awal:\n");
+    printMatrix(matrix);
 
-    // Print the result matrix
-    printf("Resultant Matrix:\n");
-    printMatrix(C);
+    pid_t pid = fork();
+
+    if (pid == 0) {
+        printf("\nProses Anak - Matriks Hasil:\n");
+        for (int i = 0; i < ROWS; i++) {
+            for (int j = 0; j < COLS; j++) {
+                matrix[i][j] *= skalar;
+                printf("%d ", matrix[i][j]);
+            }
+            printf("\n");
+        }
+    } else if (pid > 0) {
+        wait(NULL);
+        printf("\nProses Induk Selesai.\n");
+    } else {
+        fprintf(stderr, "Fork gagal.\n");
+        return 1;
+    }
 
     return 0;
 }
-</code></pre>
+```
 
-<b>Analisa:</b>
-Program ini menggunakan konsep fork() untuk membagi tugas perkalian matriks menjadi beberapa child process yang independen. Setiap child process bertanggung jawab untuk menghitung hasil perkalian untuk satu baris matriks hasil, sehingga memungkinkan proses perkalian dilakukan secara paralel.
+Output Program
 
-Setelah semua child process selesai menghitung, parent process menunggu mereka selesai menggunakan wait() dan kemudian mencetak hasil perkalian matriks tersebut. Dengan memanfaatkan fork(), program ini dapat meningkatkan efisiensi dalam melakukan perkalian matriks, terutama saat matriks yang akan dioperasikan memiliki ukuran yang besar.
+![App Screenshot](img/matriks.png)
 
-Namun, perlu diingat bahwa penggunaan fork() untuk membagi tugas harus dilakukan dengan hati-hati, karena setiap child process akan memiliki salinan lengkap dari data yang dimiliki parent process, yang dapat meningkatkan penggunaan memori secara signifikan jika ukuran data besar.
+Analisa
 
-<b>Visualisasi:</b>
-<pre notranslate>
-<code>
-               Parent Process
-                    |
-                    v
-      +--------------------------------+
-      |     Child Process (Row 1)     |
-      |         |                    |
-      |         v                    |
-      |     Calculate Row 1         |
-      |         |                    |
-      |         v                    |
-      |     Return Result            |
-      +--------------------------------+
-                    |
-                    v
-      +--------------------------------+
-      |     Child Process (Row 2)     |
-      |         |                    |
-      |         v                    |
-      |     Calculate Row 2         |
-      |         |                    |
-      |         v                    |
-      |     Return Result            |
-      +--------------------------------+
-                    |
-                    v
-      +--------------------------------+
-      |     Child Process (Row 3)     |
-      |         |                    |
-      |         v                    |
-      |     Calculate Row 3         |
-      |         |                    |
-      |         v                    |
-      |     Return Result            |
-      +--------------------------------+
-                    |
-                    v
-      +--------------------------------+
-      |     Child Process (Row 4)     |
-      |         |                    |
-      |         v                    |
-      |     Calculate Row 4         |
-      |         |                    |
-      |         v                    |
-      |     Return Result            |
-      +--------------------------------+
-                    |
-                    v
-              Print Result
-</code></pre>
+Program di atas adalah sebuah program C yang menggambarkan proses fork() dalam melakukan operasi perkalian skalar pada sebuah matriks dan menggunakan proses anak untuk melakukan operasi tersebut.
 
-<b>Output Program</b>
-<diV><img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Uts/Image/matriks4x4.jpeg"></diV>
+Fungsi `printMatrix` digunakan untuk mencetak matriks ke layar. Fungsi ini menerima sebuah matriks integer sebagai parameter dan mencetak setiap elemen matriks ke layar.
+
+Fungsi `main`
+- Matriks `matrix` diinisialisasi dengan nilai berdasarkan indeks baris dan kolomnya.
+- Matriks awal dicetak menggunakan fungsi `printMatrix`.
+- Program menggunakan `fork()` untuk membuat proses anak.
+  - Jika `pid == 0`, maka ini adalah proses anak. Proses anak akan melakukan perkalian skalar pada matriks.
+  - Jika `pid > 0`, maka ini adalah proses induk. Proses induk akan menunggu proses anak selesai.
+  - Jika `pid < 0`, maka fork() gagal dan program akan mencetak pesan kesalahan.
+
+Kesimpulan
+
+Program ini mengilustrasikan cara kerja `fork()` untuk membuat proses baru. Proses anak dan proses induk membagi memori dan menjalankan kode yang sama. Proses anak melakukan operasi perkalian skalar pada matriks, sedangkan proses induk menunggu proses anak selesai dan mencetak pesan "Proses Induk Selesai".
