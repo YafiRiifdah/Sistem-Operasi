@@ -541,3 +541,26 @@ int main() {
     return 0;
 }
 	</code></pre>
+ 
+
+Output Program
+
+![App Screenshot](img/matriks.png)
+
+Analisa
+
+Program di atas adalah sebuah program C yang menggambarkan proses fork() dalam melakukan operasi perkalian skalar pada sebuah matriks dan menggunakan proses anak untuk melakukan operasi tersebut.
+
+Fungsi `printMatrix` digunakan untuk mencetak matriks ke layar. Fungsi ini menerima sebuah matriks integer sebagai parameter dan mencetak setiap elemen matriks ke layar.
+
+Fungsi `main`
+- Matriks `matrix` diinisialisasi dengan nilai berdasarkan indeks baris dan kolomnya.
+- Matriks awal dicetak menggunakan fungsi `printMatrix`.
+- Program menggunakan `fork()` untuk membuat proses anak.
+  - Jika `pid == 0`, maka ini adalah proses anak. Proses anak akan melakukan perkalian skalar pada matriks.
+  - Jika `pid > 0`, maka ini adalah proses induk. Proses induk akan menunggu proses anak selesai.
+  - Jika `pid < 0`, maka fork() gagal dan program akan mencetak pesan kesalahan.
+
+Kesimpulan
+
+Program ini mengilustrasikan cara kerja `fork()` untuk membuat proses baru. Proses anak dan proses induk membagi memori dan menjalankan kode yang sama. Proses anak melakukan operasi perkalian skalar pada matriks, sedangkan proses induk menunggu proses anak selesai dan mencetak pesan "Proses Induk Selesai".
