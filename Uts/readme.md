@@ -545,7 +545,7 @@ int main() {
 
 Output Program
 
-![App Screenshot](img/matriks.png)
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/blob/main/week-7(UTS)/img/matriks.png)
 
 Analisa
 
