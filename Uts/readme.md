@@ -26,7 +26,7 @@
 
 Implementasi konsep fork dalam bahasa pemrograman C memungkinkan penggunaan fungsi fork() yang disediakan oleh sistem operasi. Proses parent dapat menggunakan nilai yang dikembalikan oleh fork() untuk membedakan antara dirinya dan proses child. Jika nilai yang dikembalikan adalah nol, itu berarti proses child sedang berjalan, sedangkan jika nilai itu adalah ID proses child, itu berarti proses parent sedang berjalan. Dengan demikian, penggunaan fork() dalam bahasa C memungkinkan pembuatan proses baru dan pemisahan tugas antara parent dan child process.
 
-<img src="gambar fork"
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Uts/Image/fork%20parent.jpeg">
 
 <pre notranslate>
 <code>#include <stdio.h>
@@ -89,7 +89,7 @@ int main(void) {
 </pre>
 
 <b>Output Program</b>
-<img src=""
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Uts/Image/fork1.jpeg">
 
 <b>Analisa:</b> Program mencetak informasi tentang ID proses, ID proses induk, dan ID pengguna untuk proses tersebut dalam sebuah loop. Dalam setiap iterasi, nilai-nilai ini dicetak dan program menunggu selama 3 detik sebelum mencetak informasi untuk iterasi berikutnya. Dengan demikian, output program akan menampilkan informasi tentang tiga iterasi dari proses yang berjalan.
 
@@ -155,7 +155,7 @@ return 0;
 }</code></pre>
 
 <b>Output Program</b>
-<img src=""
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Uts/Image/fork2.jpeg">
 
 <b>Analisa:</b> Program ini adalah contoh sederhana dari penggunaan fungsi sistem dalam bahasa C, khususnya dalam konteks sistem operasi Unix-like. Dalam program ini, kita menggunakan fungsi-fungsi sistem seperti getpid(), getppid(), dan getuid() untuk mendapatkan informasi tentang proses saat ini, proses induk, dan pemilik proses. Loop for digunakan untuk mencetak informasi tersebut dalam tiga iterasi. Dengan menggunakan fungsi sleep(3) di dalam loop, program menjeda eksekusi selama 3 detik setiap kali mencetak informasi. Ini memungkinkan kita untuk melihat bagaimana ID proses, ID proses induk, dan ID pengguna mungkin berubah setiap kali program dijalankan, serta bagaimana proses dapat menunggu dalam jangka waktu tertentu sebelum melanjutkan eksekusi selanjutnya. Dengan demikian, program memberikan pemahaman yang sederhana namun bermanfaat tentang cara kerja dasar sistem operasi Unix-like dalam hal pengelolaan proses dan akses informasi tentang mereka.
 
@@ -205,7 +205,7 @@ int main(void) {
 }</code></pre>
 
 <b>Output Program</b>
-<img src=""
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Uts/Image/fork3.jpeg">
 
 <b>Analisa:</b>Program di atas menggunakan fungsi <code>fork()</code> untuk membuat child process baru. Setelah pemanggilan <code>fork()</code>, kedua proses, yaitu parent dan child, akan menjalankan loop for yang mencetak ID proses masing-masing <code>(getpid())</code> lima kali dengan jeda waktu 2 detik <code>(sleep(2))</code>. Karena kedua proses mengeksekusi loop yang sama, kita akan melihat pesan "This is process [PID]" dicetak secara bergantian oleh parent dan child setiap dua detik. Namun, perlu diperhatikan bahwa kedua proses tersebut memiliki ID proses yang berbeda, karena child process memiliki ID proses yang baru dibuat setelah pemanggilan <code>fork()</code>. Dengan demikian, program ini memberikan ilustrasi sederhana tentang bagaimana child process dapat dibuat dan berjalan secara bersamaan dengan parent process.
 
@@ -286,7 +286,7 @@ int main(void) {
 }</code></pre>
 
 <b>Output Program:</b>
-<img src=""
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Uts/Image/fork4.jpeg">
 
 <b>Analisa:</b> Program ini merupakan contoh penggunaan fungsi <code>fork()</code> dalam sistem Unix-like untuk membuat child process. Setelah pemanggilan <code>fork(</code>), kedua proses, yaitu parent dan child, memiliki aliran eksekusi yang terpisah. Dalam parent process, hasil <code>fork()</code> akan mengembalikan PID (Process ID) dari child process yang baru dibuat, sedangkan dalam child process, hasil <code>fork()</code> akan mengembalikan nilai 0.
 
@@ -368,8 +368,8 @@ int main(void) {
 }</code></pre>
 
 <b>Output Program:</b>
-<img src=""
-
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Uts/Image/fork5.jpeg">
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Uts/Image/fork05.jpeg">
 <b>Analisa:</b>
 Program ini adalah contoh penggunaan fungsi <code>fork() </code>dan execl() dalam sistem Unix-like untuk membuat child process dan menjalankan program baru di dalamnya. Setelah pemanggilan <code>fork()</code>, parent process akan mencetak informasi tentang PID-nya sendiri dan PID child process yang baru dibuat, sedangkan child process akan mencetak informasi tentang PID-nya sendiri dan menjalankan program /bin/ls dengan menggunakan fungsi execl().
 
@@ -454,7 +454,7 @@ int main(void) {
 }</code></pre>
 
 <b>Output Program:</b>
-<img src=""
+<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Uts/Image/fork6.jpeg">
 
 <b>Analisa:</b>
 Program ini adalah contoh penggunaan fungsi <code>fork()</code> dan execl() dalam sistem Unix-like untuk membuat child process dan menjalankan program baru di dalamnya. Setelah pemanggilan <code>fork()</code>, parent process akan mencetak informasi tentang PID-nya sendiri dan PID child process yang baru dibuat, sedangkan child process akan mencetak informasi tentang PID-nya sendiri dan menjalankan program baru dengan nama "fork03" dengan argumen "goose" menggunakan fungsi execl().
