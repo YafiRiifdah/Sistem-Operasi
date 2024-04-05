@@ -89,7 +89,7 @@ int main(void) {
 </pre>
 
 Output Program
-<img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Uts/Image/fork1.jpeg">
+<div><img src="https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Uts/Image/fork1.jpeg"></div>
 
 <b>Analisa:</b> Program mencetak informasi tentang ID proses, ID proses induk, dan ID pengguna untuk proses tersebut dalam sebuah loop. Dalam setiap iterasi, nilai-nilai ini dicetak dan program menunggu selama 3 detik sebelum mencetak informasi untuk iterasi berikutnya. Dengan demikian, output program akan menampilkan informasi tentang tiga iterasi dari proses yang berjalan.
 
