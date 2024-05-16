@@ -16,4 +16,4 @@
 </div>
 
 ## Producer-Consumer Semaphore
-![App Screenshot](Image/producer-consumer-sempahore.jpg)
+![App Screenshot](Image/producer-consumer-sempahore.jpeg)
