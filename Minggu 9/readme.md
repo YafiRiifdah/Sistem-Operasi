@@ -16,4 +16,9 @@
 </div>
 
 ## Producer-Consumer Semaphore
-![App Screenshot](Image/producer-consumer-sempahore.jpeg)
+<img src:>https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%209/Image/producer-consumer-semaphore.jpeg
+
+**Analisa**
+Semaphore adalah mekanisme sinkronisasi yang digunakan dalam pemrograman konkuren untuk mengontrol akses ke sumber daya bersama. Dengan dua operasi dasarnya, Wait (P) dan Signal (V), semaphore memungkinkan thread atau proses untuk memblokir atau melanjutkan eksekusi berdasarkan nilai semaphore. Dengan menggunakan semaphore, pengembang dapat mencegah race condition dan deadlock, serta mengkoordinasikan akses ke sumber daya bersama dalam lingkungan multithreading dan multiproses dengan efisien. Namun, perancangan yang cermat diperlukan untuk menghindari masalah deadlock dan mempertahankan kinerja sistem yang optimal.
+
+
