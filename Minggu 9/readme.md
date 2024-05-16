@@ -16,9 +16,14 @@
 </div>
 
 ## Producer-Consumer Semaphore
-<img src:>https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%209/Image/producer-consumer-semaphore.jpeg
+<img src= "https://github.com/YafiRiifdah/SysOp_3123500001/tree/main/Minggu%209/Image">
 
 **Analisa**
 Semaphore adalah mekanisme sinkronisasi yang digunakan dalam pemrograman konkuren untuk mengontrol akses ke sumber daya bersama. Dengan dua operasi dasarnya, Wait (P) dan Signal (V), semaphore memungkinkan thread atau proses untuk memblokir atau melanjutkan eksekusi berdasarkan nilai semaphore. Dengan menggunakan semaphore, pengembang dapat mencegah race condition dan deadlock, serta mengkoordinasikan akses ke sumber daya bersama dalam lingkungan multithreading dan multiproses dengan efisien. Namun, perancangan yang cermat diperlukan untuk menghindari masalah deadlock dan mempertahankan kinerja sistem yang optimal.
 
+## Producer-Consumer-Wake-Sleep-Thread
+<img src= "https://github.com/YafiRiifdah/SysOp_3123500001/blob/main/Minggu%209/Image/wake-sleep.jpeg">
+
+**Analisa**
+Model Producer-Consumer dengan teknik "wake-sleep" pada threading menggambarkan sebuah skenario dimana produsen (producer) dan konsumen (consumer) berinteraksi dengan berbagi sumber daya bersama, seperti buffer. Produsen bertugas memasukkan data ke dalam buffer, sementara konsumen bertugas mengambil data dari buffer. Teknik "wake-sleep" diimplementasikan menggunakan semafor, dimana produsen menunggu hingga buffer kosong untuk menambahkan data, dan konsumen menunggu hingga buffer tidak kosong untuk mengambil data. Ketika sebuah thread memasukkan atau mengambil data dari buffer, ia "membangunkan" thread yang mungkin sedang "tidur" dan memberikan sinyal untuk memproses selanjutnya. Pendekatan ini memastikan sinkronisasi yang tepat antara produsen dan konsumen dalam lingkungan konkuren, menghindari kelebihan atau kekurangan penggunaan sumber daya, serta meminimalkan beban sistem dengan memperbolehkan thread untuk "tidur" ketika tidak ada tugas yang harus dilakukan.
 
