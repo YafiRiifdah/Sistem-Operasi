@@ -48,7 +48,7 @@
 
 ### Multithread Server Architecture 
 
-![App Screenshot](image/1.png)
+![App Screenshot](Image/1.png)
 
 #### Benefits
 
