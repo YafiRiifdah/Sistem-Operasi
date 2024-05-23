@@ -137,7 +137,7 @@ Karakteristik utama Kernel Threads:
 3. Many-to-Many
 
 #### Many-to-One
-![App Screenshot](image/2.png)
+![App Screenshot](Image/2.png)
 
 Many-to-One adalah salah satu model pemetaan thread di mana banyak user threads dipetakan ke satu kernel thread. Model ini memiliki beberapa karakteristik khusus yang membedakannya dari model pemetaan thread lainnya.
 
@@ -177,7 +177,7 @@ Many-to-One adalah salah satu model pemetaan thread di mana banyak user threads 
 
 
 #### One-to-One Model
-![App Scrennshot](image/3.jpg)
+![App Scrennshot](Image/3.jpg)
 ### Deskripsi
 - **User Threads ke Kernel Threads**: Dalam model ini, setiap user thread dipetakan ke satu kernel thread. Kernel mengetahui dan mengelola setiap thread yang dibuat oleh aplikasi.
 - **Manajemen oleh Kernel**: Kernel bertanggung jawab untuk penjadwalan dan manajemen semua threads, baik user threads maupun kernel threads.
@@ -213,7 +213,7 @@ Many-to-One adalah salah satu model pemetaan thread di mana banyak user threads 
 
 
 #### Many-to-Many Model
-![App Screenshot](image/4.jpg)
+![App Screenshot](Image/4.jpg)
 
 #### Deskripsi
 - **User Threads ke Kernel Threads**: Dalam model ini, banyak user threads dipetakan ke banyak kernel threads. Tidak ada pemetaan satu-ke-satu yang ketat; sebaliknya, ada fleksibilitas dalam bagaimana user threads dipetakan ke kernel threads.
@@ -662,7 +662,7 @@ Windows menggunakan Panggilan Prosedur Asinkron (APC) sebagai pengganti sinyal. 
    
 - **Deferred (Synchronous) Cancellation**: Menyediakan titik-titik pembatalan yang aman dalam kode sumber untuk memastikan bahwa thread dapat dihentikan dengan benar dan sumber daya yang digunakan dapat dibebaskan.
 
-<img src="image/6.jpg" alt="Alt teks" width="600"/>
+<img src="Image/6.jpg" alt="Alt teks" width="600"/>
 
 
 ### Thread-Local Storage
@@ -692,7 +692,7 @@ Windows menggunakan Panggilan Prosedur Asinkron (APC) sebagai pengganti sinyal. 
 - **Pengurangan Konflik**: Mengurangi kompleksitas sinkronisasi antar thread dan meningkatkan kinerja aplikasi dengan mengurangi konflik akses data bersama.
 - **Efisiensi**: Meningkatkan efisiensi aplikasi multithreaded dengan mengurangi overhead yang terkait dengan sinkronisasi akses ke data bersama.
 
-![App Screenshhot](image/7.png)
+![App Screenshhot](Image/7.png)
 
 ### Scheduler Activations
 
