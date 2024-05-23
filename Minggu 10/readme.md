@@ -716,7 +716,7 @@ Windows menggunakan Panggilan Prosedur Asinkron (APC) sebagai pengganti sinyal. 
 - **Dynamic Resource Management**: Thread dapat dinamis mengatur sumber daya yang dibutuhkan berdasarkan kebutuhan aplikasi.
 - **Perbaikan Kinerja**: Meningkatkan kinerja sistem operasi dalam manajemen threads dengan mengurangi overhead sinkronisasi dan komunikasi.
 
-<img src="image/8.png" alt="Alt teks" width="500"/>
+<img src="Image/8.png" alt="Alt teks" width="500"/>
 
 
 ### Windows Threads
@@ -742,7 +742,7 @@ Windows menggunakan Panggilan Prosedur Asinkron (APC) sebagai pengganti sinyal. 
 - **Fleksibilitas**: Windows menyediakan berbagai API untuk membuat, mengelola, dan berinteraksi dengan threads, memungkinkan pengembang untuk memilih yang paling sesuai dengan kebutuhan aplikasi.
 - **Kinerja**: Dengan dukungan untuk pengaturan prioritas dan sinkronisasi yang efisien, threads di Windows dapat dioptimalkan untuk kinerja yang baik.
 
-<img src="image/9.png" alt="Alt teks" width="500"/>
+<img src="Image/9.png" alt="Alt teks" width="500"/>
 
 
 ### Linux Threads
@@ -766,7 +766,7 @@ Windows menggunakan Panggilan Prosedur Asinkron (APC) sebagai pengganti sinyal. 
 - **Portabilitas**: Kode yang menggunakan POSIX Threads API dapat dipindahkan dengan mudah antara sistem operasi yang mendukung standar POSIX, seperti Linux, macOS, dan Unix-like lainnya.
 - **Fleksibilitas**: POSIX Threads API menyediakan berbagai mekanisme untuk membuat, mengelola, dan berinteraksi dengan threads, memberikan fleksibilitas dalam pengembangan aplikasi multithreaded.
 
-![App Screenshot](image/10.jpg)
+![App Screenshot](Image/10.jpg)
 
 ## Pertanyaan dan Jawaban seputar Threads
 
